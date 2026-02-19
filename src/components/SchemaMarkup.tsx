@@ -185,6 +185,23 @@ export default function SchemaMarkup() {
     },
   };
 
+  const siteNavigationSchema = {
+    "@context": "https://schema.org",
+    "@type": "SiteNavigationElement",
+    name: "Main Navigation",
+    hasPart: [
+      { "@type": "WebPage", name: "Web Design Ottawa", url: siteConfig.website },
+      { "@type": "WebPage", name: "SEO Services Ottawa", url: `${siteConfig.website}/seo-ottawa` },
+      { "@type": "WebPage", name: "Blog", url: `${siteConfig.website}/blog` },
+      { "@type": "WebPage", name: "Restaurant Web Design", url: `${siteConfig.website}/web-design-ottawa/restaurants` },
+      { "@type": "WebPage", name: "Dental Web Design", url: `${siteConfig.website}/web-design-ottawa/dental` },
+      { "@type": "WebPage", name: "Law Firm Web Design", url: `${siteConfig.website}/web-design-ottawa/lawyers` },
+      { "@type": "WebPage", name: "E-Commerce Web Design", url: `${siteConfig.website}/web-design-ottawa/ecommerce` },
+      { "@type": "WebPage", name: "Contractor Web Design", url: `${siteConfig.website}/web-design-ottawa/contractors` },
+      { "@type": "WebPage", name: "Real Estate Web Design", url: `${siteConfig.website}/web-design-ottawa/real-estate` },
+    ],
+  };
+
   const serviceSchemas = siteConfig.services.items.map((service) => ({
     "@context": "https://schema.org",
     "@type": "Service",
@@ -238,6 +255,12 @@ export default function SchemaMarkup() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(webSiteSchema),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(siteNavigationSchema),
         }}
       />
       {serviceSchemas.map((schema, index) => (
