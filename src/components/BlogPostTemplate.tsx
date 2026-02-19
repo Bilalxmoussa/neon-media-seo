@@ -99,7 +99,7 @@ export default function BlogPostTemplate({
                     <div key={section.id} id={section.id} className="mb-12 scroll-mt-24">
                       <h2>{section.heading}</h2>
                       {section.content.map((paragraph, i) => (
-                        <p key={i}>{paragraph}</p>
+                        <p key={i} dangerouslySetInnerHTML={{ __html: paragraph }} />
                       ))}
                     </div>
                   ))}

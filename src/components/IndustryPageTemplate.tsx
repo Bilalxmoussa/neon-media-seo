@@ -122,7 +122,7 @@ export default function IndustryPageTemplate({
                   <div key={section.heading} className="mb-12">
                     <h2>{section.heading}</h2>
                     {section.content.map((paragraph, i) => (
-                      <p key={i}>{paragraph}</p>
+                      <p key={i} dangerouslySetInnerHTML={{ __html: paragraph }} />
                     ))}
                   </div>
                 ))}

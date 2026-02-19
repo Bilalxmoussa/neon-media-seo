@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Inter } from "next/font/google";
 import { siteConfig } from "@/config/site";
 import Header from "@/components/Header";
@@ -75,6 +76,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en-CA">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-S9CCLFPMML"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-S9CCLFPMML');
+          `}
+        </Script>
+      </head>
       <body className={`${inter.variable} font-sans antialiased`}>
         <Header />
         {children}

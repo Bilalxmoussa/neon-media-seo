@@ -168,6 +168,23 @@ export default function SchemaMarkup() {
     },
   };
 
+  const webSiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: siteConfig.businessName,
+    url: siteConfig.website,
+    description: siteConfig.seoDescription,
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.businessName,
+    },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${siteConfig.website}/blog?q={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
+  };
+
   const serviceSchemas = siteConfig.services.items.map((service) => ({
     "@context": "https://schema.org",
     "@type": "Service",
@@ -215,6 +232,12 @@ export default function SchemaMarkup() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(webPageSchema),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(webSiteSchema),
         }}
       />
       {serviceSchemas.map((schema, index) => (

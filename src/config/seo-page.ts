@@ -14,14 +14,14 @@ export const seoPageConfig = {
       content: [
         "Search engine optimization is the most cost-effective marketing channel for Ottawa businesses. Unlike paid advertising where you pay for every click, SEO delivers compounding returns — the work you invest today continues to drive traffic and leads for months and years to come.",
         "Consider this: 93% of online experiences begin with a search engine, and 75% of users never scroll past the first page of Google. If your Ottawa business isn't visible in search results for your key services and products, you're invisible to the vast majority of potential customers who are actively looking for what you offer.",
-        "Ottawa's business landscape is increasingly competitive online. Businesses that invest in SEO consistently outperform competitors who rely solely on word of mouth, social media, or paid advertising. SEO builds sustainable, long-term visibility that becomes your most reliable source of new customers.",
+        "Ottawa's business landscape is increasingly competitive online. Businesses that invest in SEO consistently outperform competitors who rely solely on word of mouth, social media, or paid advertising. Pairing SEO with professional <a href=\"/\">web design</a> amplifies your results even further. SEO builds sustainable, long-term visibility that becomes your most reliable source of new customers.",
       ],
     },
     {
       heading: "Our SEO Process for Ottawa Businesses",
       content: [
         "We start every SEO engagement with a comprehensive audit of your current online presence. This includes analyzing your website's technical health, content quality, backlink profile, local citations, Google Business Profile, and competitive landscape. The audit identifies exactly where the biggest opportunities are for your specific business.",
-        "From the audit, we develop a custom SEO strategy tailored to your industry, target keywords, and business goals. This isn't a one-size-fits-all approach — a dental practice in Kanata needs a different strategy than an e-commerce store in downtown Ottawa. Your strategy includes specific actions, timelines, and expected outcomes.",
+        "From the audit, we develop a custom SEO strategy tailored to your industry, target keywords, and business goals. This isn't a one-size-fits-all approach — a <a href=\"/web-design-ottawa/dental\">dental practice</a> in Kanata needs a different strategy than an e-commerce store in downtown Ottawa. Your strategy includes specific actions, timelines, and expected outcomes.",
         "Execution includes on-page optimization (title tags, meta descriptions, content, schema markup), technical SEO (site speed, mobile optimization, crawlability), content creation (blog posts, service pages, location pages), and off-page SEO (link building, citations, review strategy). We handle everything while keeping you informed with monthly progress reports.",
       ],
     },
@@ -29,7 +29,7 @@ export const seoPageConfig = {
       heading: "Local SEO: Dominate Ottawa Search Results",
       content: [
         "Local SEO is the cornerstone of our strategy for Ottawa businesses. We optimize your Google Business Profile, build consistent local citations, implement location-specific schema markup, create neighborhood-targeted content, and develop a review generation strategy that builds your online reputation.",
-        "Our local SEO efforts target both the Google Local Pack (the map results that appear at the top of local searches) and organic search results. This dual approach maximizes your visibility and ensures you're capturing traffic from every type of local search.",
+        "For a deeper dive, read our complete <a href=\"/blog/local-seo-guide-ottawa\">local SEO guide for Ottawa businesses</a>. Our local SEO efforts target both the Google Local Pack (the map results that appear at the top of local searches) and organic search results. This dual approach maximizes your visibility and ensures you're capturing traffic from every type of local search.",
         "We've helped dozens of Ottawa businesses achieve top-3 rankings in the Local Pack for their most valuable keywords. From 'dentist Ottawa' to 'plumber Kanata' to 'web design Ottawa,' our local SEO strategies deliver measurable results that translate directly to new customers and revenue.",
       ],
     },

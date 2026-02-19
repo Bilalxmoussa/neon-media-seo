@@ -46,7 +46,7 @@ export const blogPosts: BlogPostConfig[] = [
         heading: "How Much Does a Website Cost in Ottawa in 2025?",
         content: [
           "If you're a business owner in Ottawa looking to build or redesign a website, the cost question is likely at the top of your mind. The honest answer: website costs in Ottawa range from $500 for a basic DIY template site to $25,000+ for a custom enterprise solution. Most Ottawa small businesses invest between $1,500 and $7,000 for a professional website that generates results.",
-          "The wide range exists because 'a website' can mean very different things. A simple 5-page brochure site for a local service business is a completely different project than a 50-page e-commerce store with custom functionality. Understanding what drives costs helps you make an informed investment that delivers real ROI for your Ottawa business.",
+          "The wide range exists because 'a website' can mean very different things. A simple 5-page brochure site for a local service business like a <a href=\"/web-design-ottawa/restaurants\">restaurant</a> is a completely different project than a 50-page e-commerce store with custom functionality. Understanding what drives costs helps you make an informed investment that delivers real ROI for your Ottawa business.",
           "In this guide, we'll break down website pricing in Ottawa by type, features, and complexity — so you know exactly what to expect and how to budget. As an Ottawa web design agency that's built over 150 websites for local businesses, we're sharing the transparent pricing information that most agencies won't.",
         ],
       },
@@ -56,7 +56,7 @@ export const blogPosts: BlogPostConfig[] = [
         content: [
           "Several key factors determine how much your website will cost. The number of pages is the most obvious — a 5-page site costs significantly less than a 20-page site. But page count is just the starting point. The complexity of design, custom functionality, content creation, and ongoing maintenance all play major roles.",
           "Custom design versus templates is another major cost factor. Template-based websites (using themes from ThemeForest or pre-built designs) are faster and cheaper to produce, typically saving 30-50% compared to fully custom designs. However, custom designs offer unique branding, better conversion optimization, and a professional appearance that sets you apart from competitors using the same templates.",
-          "Content creation can add $500-$3,000 to your project depending on how much writing, photography, and media production is needed. If you provide your own content (text, images, logos), you'll save significantly. SEO optimization, which we consider essential for any Ottawa business website, typically adds $500-$1,500 to the base cost but delivers returns that far exceed the investment.",
+          "Content creation can add $500-$3,000 to your project depending on how much writing, photography, and media production is needed. If you provide your own content (text, images, logos), you'll save significantly. <a href=\"/seo-ottawa\">SEO optimization</a>, which we consider essential for any Ottawa business website, typically adds $500-$1,500 to the base cost but delivers returns that far exceed the investment.",
           "Other factors include e-commerce functionality (payment processing, inventory management), third-party integrations (booking systems, CRMs, email marketing), multilingual requirements (important for Ottawa's bilingual market), and the level of ongoing support and maintenance you need after launch.",
         ],
       },
@@ -76,7 +76,7 @@ export const blogPosts: BlogPostConfig[] = [
         heading: "Hidden Website Costs to Watch For",
         content: [
           "Many Ottawa businesses get surprised by costs that aren't included in the initial website quote. Domain registration ($15-$50/year), web hosting ($10-$100/month), SSL certificates (often free with hosting, but some providers charge $50-$200/year), and premium plugins or software licenses can add $200-$1,200 annually to your website costs.",
-          "Ongoing maintenance is the hidden cost that catches most business owners off guard. WordPress sites in particular need regular updates, security patches, and backups. If you don't maintain your site, you risk security vulnerabilities, broken features, and declining performance. Professional maintenance packages in Ottawa typically range from $99-$299/month.",
+          "Ongoing maintenance is the hidden cost that catches most business owners off guard. <a href=\"/blog/wordpress-vs-custom-website\">WordPress</a> sites in particular need regular updates, security patches, and backups. If you don't maintain your site, you risk security vulnerabilities, broken features, and declining performance. Professional maintenance packages in Ottawa typically range from $99-$299/month.",
           "Content updates, while not always a hidden cost, are often underestimated. If you need regular blog posts, product updates, or seasonal content changes and can't do them yourself, budget $200-$500/month for content management. Some agencies include a certain number of monthly updates in their maintenance packages.",
         ],
       },
@@ -135,9 +135,9 @@ export const blogPosts: BlogPostConfig[] = [
         id: "overview",
         heading: "How to Choose the Right Website Builder for Your Small Business",
         content: [
-          "Choosing the right website builder is one of the most important decisions for your small business online presence. The platform you choose affects everything — your site's design, speed, SEO performance, scalability, and how much you'll spend over the lifetime of your website.",
-          "There's no one-size-fits-all answer. The best platform depends on your specific business needs, technical comfort level, budget, and growth plans. An e-commerce business has different requirements than a service-based company. A solo entrepreneur has different needs than a growing team.",
-          "In this guide, we'll compare the most popular website builders for small businesses in 2025, highlighting the strengths and weaknesses of each so you can make an informed decision. We build websites on multiple platforms at our Ottawa web design agency, so we're sharing honest insights from real-world experience.",
+          "Choosing the right website builder is one of the most important decisions for your small business online presence. The platform you choose affects everything — your site's design, speed, SEO performance, scalability, and <a href=\"/blog/web-design-cost-ottawa\">how much you'll spend</a> over the lifetime of your website.",
+          "There's no one-size-fits-all answer. The best platform depends on your specific business needs, technical comfort level, budget, and growth plans. An <a href=\"/web-design-ottawa/ecommerce\">e-commerce</a> business has different requirements than a service-based company. A solo entrepreneur has different needs than a growing team.",
+          "In this guide, we'll compare the most popular website builders for small businesses in 2025, highlighting the strengths and weaknesses of each so you can make an informed decision. We build websites on multiple platforms at our <a href=\"/\">Ottawa web design agency</a>, so we're sharing honest insights from real-world experience.",
         ],
       },
       {
@@ -243,7 +243,7 @@ export const blogPosts: BlogPostConfig[] = [
         content: [
           "The debate between WordPress and custom-built websites is one of the most common questions we hear from Ottawa business owners. Both options can produce excellent results, but they excel in different situations. The right choice depends on your budget, technical needs, growth plans, and how you plan to manage your website long-term.",
           "WordPress is a content management system (CMS) that powers 43% of the web. It provides a framework of themes, plugins, and a user-friendly admin panel. Custom websites are built from scratch using modern frameworks like Next.js, React, or Vue.js, tailored exactly to your specifications.",
-          "In this guide, we'll compare both options honestly across the metrics that matter most to business owners: performance, cost, SEO, ease of use, and long-term value. As an agency that builds both WordPress and custom websites for Ottawa businesses, we have no platform bias — just practical experience.",
+          "In this guide, we'll compare both options honestly across the metrics that matter most to business owners: performance, cost, SEO, ease of use, and long-term value. As an agency that builds both WordPress and custom websites for <a href=\"/\">Ottawa businesses</a>, we have no platform bias — just practical experience.",
         ],
       },
       {
@@ -259,7 +259,7 @@ export const blogPosts: BlogPostConfig[] = [
         id: "cost",
         heading: "Cost: WordPress Is More Affordable Upfront",
         content: [
-          "WordPress websites cost significantly less to build. A professional WordPress site typically costs $1,500-$7,000, while a comparable custom-built site costs $5,000-$15,000+. The difference comes from development time — WordPress provides a pre-built framework that speeds up development.",
+          "WordPress websites <a href=\"/blog/web-design-cost-ottawa\">cost significantly less to build</a>. A professional WordPress site typically costs $1,500-$7,000, while a comparable custom-built site costs $5,000-$15,000+. The difference comes from development time — WordPress provides a pre-built framework that speeds up development.",
           "However, the total cost of ownership over 3-5 years can tell a different story. WordPress sites require ongoing maintenance ($99-$299/month), premium plugin renewals ($200-$800/year), and occasional troubleshooting when plugins conflict or updates break functionality. Custom sites typically have lower ongoing costs since there are no plugin fees and less maintenance complexity.",
           "For most Ottawa small businesses with budgets under $5,000, WordPress delivers excellent value. For businesses with larger budgets and high performance requirements, custom builds often provide better long-term ROI despite the higher upfront investment.",
         ],
@@ -269,7 +269,7 @@ export const blogPosts: BlogPostConfig[] = [
         heading: "SEO: Both Can Excel With Proper Implementation",
         content: [
           "Both WordPress and custom websites can achieve excellent SEO results. WordPress with plugins like Yoast SEO or Rank Math provides comprehensive SEO controls, including meta tags, sitemaps, schema markup, and content analysis. Custom sites can implement the same SEO features, plus have the advantage of cleaner code and faster performance.",
-          "The real SEO difference isn't the platform — it's the implementation. A WordPress site with proper SEO setup, quality content, and local optimization will outrank a custom site with poor content and no SEO strategy every time. The platform provides the foundation, but content and strategy drive results.",
+          "The real <a href=\"/seo-ottawa\">SEO</a> difference isn't the platform — it's the implementation. A WordPress site with proper SEO setup, quality content, and local optimization will outrank a custom site with poor content and no SEO strategy every time. The platform provides the foundation, but content and strategy drive results.",
           "For Ottawa businesses competing in moderately competitive markets, WordPress's SEO capabilities are more than sufficient. For highly competitive keywords where every technical advantage matters (like 'web design Ottawa'), the performance edge of custom builds can provide a meaningful ranking boost.",
         ],
       },
@@ -364,7 +364,7 @@ export const blogPosts: BlogPostConfig[] = [
         content: [
           "Search engine optimization (SEO) is the process of making your website appear in Google search results when potential customers are looking for businesses like yours. Without a website, you're invisible in the most important marketing channel for local businesses.",
           "Consider this: when someone in Ottawa searches for 'plumber near me' or 'best dentist in Ottawa,' the businesses that appear on the first page of Google get 75% of all clicks. These aren't random browsers — they're people with immediate intent to hire or purchase. Without a website, you can't appear in these results.",
-          "Local SEO is particularly powerful for Ottawa businesses. Google's 'Local Pack' (the map results that appear at the top of local searches) drives enormous amounts of traffic. A properly optimized website combined with a Google Business Profile can put your business in front of thousands of local customers searching for exactly what you offer.",
+          "<a href=\"/blog/local-seo-guide-ottawa\">Local SEO</a> is particularly powerful for Ottawa businesses. Google's 'Local Pack' (the map results that appear at the top of local searches) drives enormous amounts of traffic. A properly optimized website combined with a Google Business Profile can put your business in front of thousands of local customers searching for exactly what you offer.",
         ],
       },
       {
@@ -373,7 +373,7 @@ export const blogPosts: BlogPostConfig[] = [
         content: [
           "In virtually every industry in Ottawa, your top competitors have professional websites. They're capturing the customers that could be yours. Every day without a website is a day where potential customers who search for your services find your competitors instead.",
           "But here's the opportunity: many competitors have outdated, slow, or poorly optimized websites. By investing in a modern, professional website with proper SEO, you can actually leapfrog established competitors in search rankings and capture market share.",
-          "We've seen this happen repeatedly with Ottawa businesses. A new dental practice surpassing established clinics in search rankings within 6 months. A contractor going from zero online presence to the #1 Google result in their area. A restaurant tripling their online orders within 90 days of launching their website.",
+          "We've seen this happen repeatedly with Ottawa businesses. A new <a href=\"/web-design-ottawa/dental\">dental practice</a> surpassing established clinics in search rankings within 6 months. A <a href=\"/web-design-ottawa/contractors\">contractor</a> going from zero online presence to the #1 Google result in their area. A restaurant tripling their online orders within 90 days of launching their website.",
         ],
       },
       {
@@ -452,9 +452,9 @@ export const blogPosts: BlogPostConfig[] = [
         content: [
           "On-page SEO refers to optimizations made directly on your website pages. For local businesses, this includes both standard SEO best practices and location-specific optimizations.",
           "Every page should have a unique title tag (under 60 characters) and meta description (under 155 characters) that include your target keyword and location. For example: 'Dental Implants Ottawa | [Practice Name]' is more effective than a generic 'Our Services' title.",
-          "Use structured data (schema markup) to help Google understand your business information. LocalBusiness schema, Service schema, FAQ schema, and BreadcrumbList schema all help Google display rich results for your business. This is one of the most impactful yet underutilized local SEO tactics.",
+          "Use structured data (<a href=\"/seo-ottawa\">schema markup</a>) to help Google understand your business information. LocalBusiness schema, Service schema, FAQ schema, and BreadcrumbList schema all help Google display rich results for your business. This is one of the most impactful yet underutilized local SEO tactics.",
           "Ensure your name, address, and phone number (NAP) are consistent across every page of your website and match your Google Business Profile exactly. Inconsistencies in NAP information confuse search engines and can hurt your local rankings.",
-          "Create dedicated service pages for each service you offer, and location pages for each area you serve. A contractor who has separate pages for 'Plumbing Services Ottawa,' 'Plumbing Kanata,' and 'Emergency Plumber Barrhaven' will capture significantly more local search traffic than one with a single generic services page.",
+          "Create dedicated service pages for each service you offer, and location pages for each area you serve. A <a href=\"/web-design-ottawa/contractors\">contractor</a> who has separate pages for 'Plumbing Services Ottawa,' 'Plumbing Kanata,' and 'Emergency Plumber Barrhaven' will capture significantly more local search traffic than one with a single generic services page.",
         ],
       },
       {
@@ -485,7 +485,7 @@ export const blogPosts: BlogPostConfig[] = [
           "Blog about topics relevant to your industry and Ottawa specifically. A contractor might write about 'Preparing Your Ottawa Home for Winter' or 'Best Renovations for Older Ottawa Homes.' A dentist might write about 'Finding the Right Family Dentist in Ottawa' or 'Understanding OHIP+ Coverage for Children's Dental Care.'",
           "Create neighborhood guides and area-specific content. Detailed pages about serving Kanata, Barrhaven, Orleans, and other areas not only target location-specific keywords but also demonstrate genuine local expertise. Include information about the community, local landmarks, and how your services specifically help residents in that area.",
           "Link-building through local partnerships amplifies your content strategy. Sponsor local events, participate in community initiatives, and build relationships with other Ottawa businesses for cross-promotion opportunities. These activities naturally generate backlinks from local websites, which are highly valuable for local SEO.",
-          "Implementing these local SEO strategies consistently can transform your Ottawa business's online visibility. If you need help developing and executing a local SEO strategy, Neon Web Agency offers comprehensive SEO services designed specifically for Ottawa businesses. Contact us for a free SEO audit.",
+          "Implementing these local SEO strategies consistently can transform your Ottawa business's online visibility. If you need help developing and executing a local SEO strategy, Neon Web Agency offers comprehensive <a href=\"/\">web design</a> and SEO services designed specifically for Ottawa businesses. Contact us for a free SEO audit.",
         ],
       },
     ],
@@ -523,7 +523,7 @@ export const blogPosts: BlogPostConfig[] = [
         heading: "How to Start Your Search for a Web Designer in Ottawa",
         content: [
           "Finding the right web designer in Ottawa can feel overwhelming. A quick Google search reveals dozens of agencies and freelancers, all claiming to be the best. How do you separate genuine expertise from good marketing? This guide will give you a practical framework for evaluating and choosing a web designer who will deliver real results for your business.",
-          "Before you start evaluating designers, get clear on your own requirements. What is the primary purpose of your website? (Lead generation, e-commerce, brand awareness?) What features do you need? What's your budget range? What's your timeline? Having clear answers to these questions helps you communicate effectively with potential designers and compare proposals fairly.",
+          "Before you start evaluating designers, get clear on your own requirements. What is the primary purpose of your website? (Lead generation, e-commerce, brand awareness?) What features do you need? <a href=\"/blog/web-design-cost-ottawa\">What's your budget range?</a> What's your timeline? Having clear answers to these questions helps you communicate effectively with potential designers and compare proposals fairly.",
           "Start by looking at three types of potential partners: Ottawa-based agencies (typically $2,000-$15,000+), local freelancers ($500-$5,000), and remote agencies or freelancers. While excellent work can come from any source, working with a local Ottawa-based designer offers advantages for meetings, understanding of the local market, and accountability.",
         ],
       },
@@ -533,7 +533,7 @@ export const blogPosts: BlogPostConfig[] = [
         content: [
           "A strong portfolio is the most important indicator of quality. Look for websites that are visually appealing, load quickly, work well on mobile devices, and — most importantly — are similar in scope and industry to what you need. A designer who's built great restaurant websites may not be the best choice for a legal firm.",
           "Look for evidence of results, not just design. Good web designers talk about business outcomes — leads generated, revenue increased, rankings improved — not just pixels and aesthetics. Ask about the results their websites have achieved for previous clients, especially Ottawa-based businesses in your industry.",
-          "Technical competency matters. Your designer should understand SEO fundamentals, mobile-responsive design, website performance optimization, accessibility (AODA compliance for Ontario businesses), and modern web technologies. A beautiful website that doesn't load quickly or rank on Google is a failed investment.",
+          "Technical competency matters. Your designer should understand SEO fundamentals, mobile-responsive design, website performance optimization, accessibility (AODA compliance for Ontario businesses), and modern web technologies. Understanding the tradeoffs between <a href=\"/blog/wordpress-vs-custom-website\">WordPress and custom websites</a> is another sign of expertise. A beautiful website that doesn't load quickly or rank on Google is a failed investment.",
           "Communication quality during the sales process indicates what the working relationship will be like. Are they responsive? Do they ask thoughtful questions about your business? Do they provide clear, detailed answers to your questions? Or do they send generic proposals without understanding your specific needs?",
         ],
       },
@@ -577,7 +577,7 @@ export const blogPosts: BlogPostConfig[] = [
           "Choose an agency when you need a comprehensive solution (design + development + SEO + content), when the project is complex, when you want ongoing support and maintenance, or when reliability and accountability are critical.",
           "Choose a freelancer when your budget is limited, when the project is relatively simple, when you only need design or only need development, or when you have the internal capability to manage the project closely.",
           "At Neon Web Agency, we've built our Ottawa web design agency to offer the best of both worlds: the personal attention and communication of a freelancer with the comprehensive capabilities and reliability of an agency. Every client works directly with our senior team, and we handle design, development, SEO, and content under one roof.",
-          "Ready to discuss your project? Book a free strategy call with our Ottawa web design team. We'll review your goals, audit your current online presence, and provide a custom recommendation — no obligation, just honest advice.",
+          "Ready to discuss your project? Book a free strategy call with our <a href=\"/\">Ottawa web design team</a>. We'll review your goals, audit your current online presence, and provide a custom recommendation — no obligation, just honest advice.",
         ],
       },
     ],

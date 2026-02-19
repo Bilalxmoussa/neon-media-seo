@@ -43,8 +43,8 @@ export const industries: IndustryConfig[] = [
         heading: "Why Ottawa Restaurants Need a Professional Website",
         content: [
           "Ottawa's restaurant scene is booming, with over 2,800 dining establishments competing for customers across the National Capital Region. From fine dining in the ByWard Market to casual eateries in Westboro, standing out online is no longer optional — it's essential for survival. A professional restaurant website is your most powerful marketing tool, working 24/7 to attract new diners and keep regulars coming back.",
-          "Studies show that 77% of diners visit a restaurant's website before deciding where to eat. If your website is outdated, slow, or missing key information like menus and hours, you're losing customers to competitors with better online presences. Mobile-friendly design is especially critical — over 72% of restaurant searches in Ottawa happen on smartphones, often by people looking for a place to eat right now.",
-          "At Neon Web Agency, we specialize in restaurant website design in Ottawa that combines stunning visual design with practical functionality. Every restaurant website we build includes mobile-optimized menu displays, online ordering integration, Google Maps embedding, and local SEO optimization to help you rank for searches like 'restaurants near me' and 'best restaurants in Ottawa'.",
+          "Studies show that 77% of diners visit a restaurant's website before deciding where to eat. If your website is outdated, slow, or missing key information like menus and hours, you're losing customers to competitors with better online presences. Understanding <a href=\"/blog/web-design-cost-ottawa\">how much a website costs</a> is the first step toward fixing that. Mobile-friendly design is especially critical — over 72% of restaurant searches in Ottawa happen on smartphones, often by people looking for a place to eat right now.",
+          "At Neon Web Agency, we specialize in restaurant website design in Ottawa that combines stunning visual design with practical functionality. Every restaurant website we build includes mobile-optimized menu displays, online ordering integration, Google Maps embedding, and <a href=\"/blog/local-seo-guide-ottawa\">local SEO optimization</a> to help you rank for searches like 'restaurants near me' and 'best restaurants in Ottawa'.",
         ],
       },
       {
@@ -59,7 +59,7 @@ export const industries: IndustryConfig[] = [
         heading: "Local SEO for Ottawa Restaurants",
         content: [
           "Ranking on Google for restaurant-related searches in Ottawa can transform your business. We optimize every restaurant website for local search terms including 'restaurants Ottawa,' 'best brunch Ottawa,' and neighborhood-specific terms like 'ByWard Market restaurants' or 'Glebe dinner spots.'",
-          "Our restaurant SEO strategy includes optimizing your Google Business Profile, building local citations, implementing restaurant-specific schema markup (menu, opening hours, price range), and creating content that targets the exact searches Ottawa diners are making. We've helped dozens of Ottawa restaurants achieve first-page rankings and significantly increase their covers.",
+          "Our restaurant <a href=\"/seo-ottawa\">SEO strategy</a> includes optimizing your Google Business Profile, building local citations, implementing restaurant-specific schema markup (menu, opening hours, price range), and creating content that targets the exact searches Ottawa diners are making. We've helped dozens of Ottawa restaurants achieve first-page rankings and significantly increase their covers.",
         ],
       },
     ],
@@ -151,7 +151,7 @@ export const industries: IndustryConfig[] = [
         heading: "Why Ottawa Dental Practices Need a Modern Website",
         content: [
           "Ottawa is home to over 400 dental practices competing for patients across the National Capital Region. With 85% of potential patients searching online before choosing a dentist, your website is often the first impression your practice makes. A modern, professional dental website builds trust, showcases your expertise, and converts visitors into booked appointments.",
-          "Many Ottawa dental practices still rely on outdated websites that are slow, not mobile-friendly, and lack essential features like online booking. In a competitive market, this puts you at a significant disadvantage. Patients expect to find detailed information about services, view the office and team, read reviews, and book appointments — all from their smartphone.",
+          "Many Ottawa dental practices still rely on outdated websites that are slow, not mobile-friendly, and lack essential features like online booking. Knowing <a href=\"/blog/how-to-choose-web-designer-ottawa\">how to choose the right web designer</a> can make all the difference. In a competitive market, this puts you at a significant disadvantage. Patients expect to find detailed information about services, view the office and team, read reviews, and book appointments — all from their smartphone.",
           "At Neon Web Agency, we specialize in dental website design in Ottawa that combines medical professionalism with modern web design. Every dental website we build is AODA-compliant, mobile-responsive, and optimized to rank for high-value searches like 'dentist Ottawa,' 'family dentist near me,' and procedure-specific terms like 'dental implants Ottawa.'",
         ],
       },
@@ -166,8 +166,8 @@ export const industries: IndustryConfig[] = [
       {
         heading: "Patient Acquisition Through Local SEO",
         content: [
-          "Local SEO is the most cost-effective marketing channel for Ottawa dental practices. We optimize your website to rank for high-intent searches like 'dentist near me,' 'emergency dentist Ottawa,' 'teeth whitening Ottawa,' and neighborhood-specific terms like 'Kanata dentist' or 'Barrhaven family dental.'",
-          "Our dental SEO strategy includes optimizing your Google Business Profile, building healthcare-specific citations, implementing dental practice schema markup, and creating targeted content that addresses the specific dental concerns of Ottawa patients. We've helped Ottawa dental practices increase new patient inquiries by 150-200% through strategic local SEO.",
+          "<a href=\"/blog/local-seo-guide-ottawa\">Local SEO</a> is the most cost-effective marketing channel for Ottawa dental practices. We optimize your website to rank for high-intent searches like 'dentist near me,' 'emergency dentist Ottawa,' 'teeth whitening Ottawa,' and neighborhood-specific terms like 'Kanata dentist' or 'Barrhaven family dental.'",
+          "Our dental SEO strategy includes optimizing your Google Business Profile, building healthcare-specific citations, implementing dental practice schema markup, and creating targeted content that addresses the specific dental concerns of Ottawa patients. We've helped Ottawa dental practices increase new patient inquiries by 150-200% through strategic <a href=\"/seo-ottawa\">local SEO</a>.",
         ],
       },
     ],
@@ -260,7 +260,7 @@ export const industries: IndustryConfig[] = [
         content: [
           "In Ottawa's competitive legal market, your website is often the first interaction potential clients have with your firm. With over 3,000 lawyers practicing in the National Capital Region and 96% of people seeking legal advice using a search engine, a professional website is essential for attracting clients and establishing credibility.",
           "Potential clients researching lawyers evaluate your website within seconds. A modern, professionally designed law firm website signals competence, trustworthiness, and attention to detail — the same qualities clients expect from their legal representation. Conversely, an outdated or poorly designed website can drive potential clients directly to your competitors.",
-          "At Neon Web Agency, we understand the unique needs of legal professionals in Ottawa. Our law firm websites are designed to build authority, showcase practice areas, highlight team credentials, and make it easy for potential clients to take the next step — whether that's booking a consultation, calling your office, or submitting an intake form.",
+          "At Neon Web Agency, we understand the unique needs of legal professionals in Ottawa. Whether you choose <a href=\"/blog/wordpress-vs-custom-website\">WordPress or a custom-built website</a>, our law firm websites are designed to build authority, showcase practice areas, highlight team credentials, and make it easy for potential clients to take the next step — whether that's booking a consultation, calling your office, or submitting an intake form.",
         ],
       },
       {
@@ -274,7 +274,7 @@ export const industries: IndustryConfig[] = [
       {
         heading: "Legal Marketing & SEO in Ottawa",
         content: [
-          "Legal keywords are among the most competitive in Ottawa's search landscape. We implement a targeted SEO strategy that helps your firm rank for high-intent searches that indicate someone needs legal help right now. This includes practice area keywords, location-specific terms, and informational queries that capture clients earlier in their search.",
+          "Legal keywords are among the most competitive in Ottawa's search landscape. We implement a targeted <a href=\"/seo-ottawa\">SEO strategy</a> that helps your firm rank for high-intent searches that indicate someone needs legal help right now. This includes practice area keywords, location-specific terms, and informational queries that capture clients earlier in their search.",
           "Our legal SEO approach includes optimized Google Business Profile management, legal directory submissions, practice area content strategy, and technical SEO that ensures your website meets Google's performance standards. We've helped Ottawa law firms achieve first-page rankings for highly competitive terms within 4-6 months.",
         ],
       },
@@ -376,7 +376,7 @@ export const industries: IndustryConfig[] = [
         heading: "E-Commerce Features That Drive Sales",
         content: [
           "Successful e-commerce isn't just about listing products — it's about creating a seamless buying experience. We build product pages with high-quality image galleries, detailed descriptions, size/color variants, customer reviews, and related product recommendations that increase average order value by 15-25%.",
-          "Our e-commerce websites include secure payment processing with Stripe, PayPal, and Shopify Payments, supporting all major credit cards, Apple Pay, and Google Pay. We also implement abandoned cart recovery, which our clients use to recapture 10-15% of otherwise lost sales through automated email sequences.",
+          "Our e-commerce websites include secure payment processing with Stripe, PayPal, and <a href=\"/blog/best-website-builders-small-business\">Shopify</a> Payments, supporting all major credit cards, Apple Pay, and Google Pay. We also implement abandoned cart recovery, which our clients use to recapture 10-15% of otherwise lost sales through automated email sequences.",
           "Inventory management, order tracking, automated shipping calculations, tax calculations for Canadian provinces, and integration with popular fulfillment services — we handle the technical complexity so you can focus on growing your business. Every e-commerce site we build also includes a mobile-optimized checkout process, which is critical since over 65% of e-commerce traffic comes from mobile devices.",
         ],
       },
@@ -430,7 +430,7 @@ export const industries: IndustryConfig[] = [
       {
         question: "How much does an e-commerce website cost in Ottawa?",
         answer:
-          "E-commerce website pricing depends on the number of products, features, and complexity. Basic online stores start at $3,499, while feature-rich e-commerce platforms with custom functionality typically range from $5,999 to $12,999.",
+          "<a href=\"/blog/web-design-cost-ottawa\">E-commerce website pricing</a> depends on the number of products, features, and complexity. Basic online stores start at $3,499, while feature-rich e-commerce platforms with custom functionality typically range from $5,999 to $12,999.",
       },
       {
         question: "Which e-commerce platform do you recommend?",
@@ -475,7 +475,7 @@ export const industries: IndustryConfig[] = [
       {
         heading: "Why Ottawa Contractors Need a Professional Website",
         content: [
-          "Ottawa homeowners spend over $2 billion annually on home improvements and repairs, and 88% of them start by searching online for local contractors. If your contracting business doesn't have a professional website — or worse, has an outdated one — you're invisible to the vast majority of potential customers.",
+          "Ottawa homeowners spend over $2 billion annually on home improvements and repairs, and 88% of them start by searching online for local contractors. If your contracting business doesn't have a professional website — or worse, has an outdated one — you're invisible to the vast majority of potential customers. If you're still unsure, here's <a href=\"/blog/why-your-business-needs-website-2025\">why your business needs a website</a> in 2025.",
           "The contracting industry in Ottawa is highly competitive, with thousands of plumbers, electricians, HVAC technicians, roofers, landscapers, and general contractors vying for the same homeowners. A professional website is what separates successful contractors who consistently land jobs from those who rely solely on word of mouth and struggle during slow seasons.",
           "At Neon Web Agency, we've built websites for dozens of Ottawa contractors across every trade. We understand what homeowners look for when choosing a contractor: proof of quality work, licensing and insurance information, clear pricing, easy contact methods, and reviews from satisfied customers. We build all of this into every contractor website we create.",
         ],
@@ -491,7 +491,7 @@ export const industries: IndustryConfig[] = [
       {
         heading: "Local SEO for Ottawa Contractors",
         content: [
-          "Ranking on Google for contractor searches in Ottawa is the single most effective marketing investment you can make. We optimize your website for high-intent searches like 'plumber Ottawa,' 'electrician near me,' 'Ottawa roofing company,' and emergency terms like 'emergency plumber Ottawa' that indicate someone needs help right now.",
+          "Ranking on Google for contractor searches in Ottawa is the single most effective marketing investment you can make. A strong <a href=\"/blog/local-seo-guide-ottawa\">local SEO strategy</a> is essential for getting found by homeowners in your area. We optimize your website for high-intent searches like 'plumber Ottawa,' 'electrician near me,' 'Ottawa roofing company,' and emergency terms like 'emergency plumber Ottawa' that indicate someone needs help right now.",
           "Our contractor SEO strategy includes Google Business Profile optimization, service area pages for every neighborhood you serve, trade-specific schema markup, review generation strategy, and local citation building. We've helped Ottawa contractors go from invisible online to the top of Google within 3-6 months.",
         ],
       },
@@ -585,7 +585,7 @@ export const industries: IndustryConfig[] = [
         heading: "Why Ottawa Real Estate Professionals Need a Custom Website",
         content: [
           "Ottawa's real estate market is one of the most active in Canada, with over 17,000 residential transactions annually and an average home price exceeding $650,000. In this competitive market, real estate agents and brokerages who rely solely on their brokerage's generic website are missing out on a massive opportunity to build their personal brand and generate their own leads.",
-          "A custom real estate website positions you as the go-to expert in your market area. While portals like Realtor.ca drive awareness, your own website is where you convert that awareness into relationships. Buyers and sellers want to work with agents who demonstrate local expertise, market knowledge, and professionalism — and your website is the first place they evaluate this.",
+          "A custom real estate website positions you as the go-to expert in your market area. <a href=\"/blog/how-to-choose-web-designer-ottawa\">Choosing the right web designer</a> ensures your site truly reflects your brand. While portals like Realtor.ca drive awareness, your own website is where you convert that awareness into relationships. Buyers and sellers want to work with agents who demonstrate local expertise, market knowledge, and professionalism — and your website is the first place they evaluate this.",
           "At Neon Web Agency, we build real estate websites that combine beautiful design with powerful functionality. IDX/MLS integration, property search, neighborhood guides, market reports, and automated lead capture — everything you need to dominate your Ottawa real estate market online.",
         ],
       },
@@ -601,7 +601,7 @@ export const industries: IndustryConfig[] = [
         heading: "Real Estate SEO in Ottawa",
         content: [
           "Ranking for real estate searches in Ottawa drives a consistent stream of buyer and seller leads. We target high-value keywords like 'homes for sale Ottawa,' 'Ottawa real estate agent,' 'condos for sale downtown Ottawa,' and neighborhood-specific searches that indicate serious buying intent.",
-          "Our real estate SEO strategy includes community page optimization, blog content about the Ottawa real estate market, property listing schema markup, and Google Business Profile optimization. We've helped Ottawa real estate professionals achieve top-3 rankings for their target neighborhoods and significantly increase their lead generation.",
+          "Our <a href=\"/seo-ottawa\">real estate SEO strategy</a> includes community page optimization, blog content about the Ottawa real estate market, property listing schema markup, and Google Business Profile optimization. We've helped Ottawa real estate professionals achieve top-3 rankings for their target neighborhoods and significantly increase their lead generation.",
         ],
       },
     ],
