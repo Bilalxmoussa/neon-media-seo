@@ -31,7 +31,7 @@ export const industries: IndustryConfig[] = [
     slug: "restaurants",
     title: "Restaurant Website Design Ottawa",
     metaTitle:
-      "Restaurant Website Design Ottawa | Online Ordering & Menus - Neon Media",
+      "Restaurant Website Design Ottawa | Online Ordering & Menus - Neon Web Agency",
     metaDescription:
       "Custom restaurant website design in Ottawa with online ordering, menu displays, and reservation systems. Help your restaurant attract more diners and increase online orders.",
     keyword: "restaurant website design Ottawa",
@@ -44,7 +44,7 @@ export const industries: IndustryConfig[] = [
         content: [
           "Ottawa's restaurant scene is booming, with over 2,800 dining establishments competing for customers across the National Capital Region. From fine dining in the ByWard Market to casual eateries in Westboro, standing out online is no longer optional — it's essential for survival. A professional restaurant website is your most powerful marketing tool, working 24/7 to attract new diners and keep regulars coming back.",
           "Studies show that 77% of diners visit a restaurant's website before deciding where to eat. If your website is outdated, slow, or missing key information like menus and hours, you're losing customers to competitors with better online presences. Mobile-friendly design is especially critical — over 72% of restaurant searches in Ottawa happen on smartphones, often by people looking for a place to eat right now.",
-          "At Neon Media, we specialize in restaurant website design in Ottawa that combines stunning visual design with practical functionality. Every restaurant website we build includes mobile-optimized menu displays, online ordering integration, Google Maps embedding, and local SEO optimization to help you rank for searches like 'restaurants near me' and 'best restaurants in Ottawa'.",
+          "At Neon Web Agency, we specialize in restaurant website design in Ottawa that combines stunning visual design with practical functionality. Every restaurant website we build includes mobile-optimized menu displays, online ordering integration, Google Maps embedding, and local SEO optimization to help you rank for searches like 'restaurants near me' and 'best restaurants in Ottawa'.",
         ],
       },
       {
@@ -139,7 +139,7 @@ export const industries: IndustryConfig[] = [
     slug: "dental",
     title: "Dental Website Design Ottawa",
     metaTitle:
-      "Dental Website Design Ottawa | Patient-Focused Websites - Neon Media",
+      "Dental Website Design Ottawa | Patient-Focused Websites - Neon Web Agency",
     metaDescription:
       "Professional dental website design in Ottawa with online booking, patient portals, and local SEO. Attract more patients and grow your dental practice online.",
     keyword: "dental website design Ottawa",
@@ -152,7 +152,7 @@ export const industries: IndustryConfig[] = [
         content: [
           "Ottawa is home to over 400 dental practices competing for patients across the National Capital Region. With 85% of potential patients searching online before choosing a dentist, your website is often the first impression your practice makes. A modern, professional dental website builds trust, showcases your expertise, and converts visitors into booked appointments.",
           "Many Ottawa dental practices still rely on outdated websites that are slow, not mobile-friendly, and lack essential features like online booking. In a competitive market, this puts you at a significant disadvantage. Patients expect to find detailed information about services, view the office and team, read reviews, and book appointments — all from their smartphone.",
-          "At Neon Media, we specialize in dental website design in Ottawa that combines medical professionalism with modern web design. Every dental website we build is AODA-compliant, mobile-responsive, and optimized to rank for high-value searches like 'dentist Ottawa,' 'family dentist near me,' and procedure-specific terms like 'dental implants Ottawa.'",
+          "At Neon Web Agency, we specialize in dental website design in Ottawa that combines medical professionalism with modern web design. Every dental website we build is AODA-compliant, mobile-responsive, and optimized to rank for high-value searches like 'dentist Ottawa,' 'family dentist near me,' and procedure-specific terms like 'dental implants Ottawa.'",
         ],
       },
       {
@@ -247,7 +247,7 @@ export const industries: IndustryConfig[] = [
     slug: "lawyers",
     title: "Law Firm Website Design Ottawa",
     metaTitle:
-      "Law Firm Website Design Ottawa | Authority-Building Websites - Neon Media",
+      "Law Firm Website Design Ottawa | Authority-Building Websites - Neon Web Agency",
     metaDescription:
       "Professional law firm website design in Ottawa. Build authority, attract clients, and grow your legal practice with a website that converts visitors into consultations.",
     keyword: "law firm website design Ottawa",
@@ -260,7 +260,7 @@ export const industries: IndustryConfig[] = [
         content: [
           "In Ottawa's competitive legal market, your website is often the first interaction potential clients have with your firm. With over 3,000 lawyers practicing in the National Capital Region and 96% of people seeking legal advice using a search engine, a professional website is essential for attracting clients and establishing credibility.",
           "Potential clients researching lawyers evaluate your website within seconds. A modern, professionally designed law firm website signals competence, trustworthiness, and attention to detail — the same qualities clients expect from their legal representation. Conversely, an outdated or poorly designed website can drive potential clients directly to your competitors.",
-          "At Neon Media, we understand the unique needs of legal professionals in Ottawa. Our law firm websites are designed to build authority, showcase practice areas, highlight team credentials, and make it easy for potential clients to take the next step — whether that's booking a consultation, calling your office, or submitting an intake form.",
+          "At Neon Web Agency, we understand the unique needs of legal professionals in Ottawa. Our law firm websites are designed to build authority, showcase practice areas, highlight team credentials, and make it easy for potential clients to take the next step — whether that's booking a consultation, calling your office, or submitting an intake form.",
         ],
       },
       {
@@ -356,7 +356,7 @@ export const industries: IndustryConfig[] = [
     slug: "ecommerce",
     title: "E-Commerce Website Design Ottawa",
     metaTitle:
-      "E-Commerce Website Design Ottawa | Online Stores That Sell - Neon Media",
+      "E-Commerce Website Design Ottawa | Online Stores That Sell - Neon Web Agency",
     metaDescription:
       "Custom e-commerce website design in Ottawa. We build online stores with secure payments, inventory management, and conversion optimization that drive real sales.",
     keyword: "ecommerce website Ottawa",
@@ -369,7 +369,7 @@ export const industries: IndustryConfig[] = [
         content: [
           "Canadian e-commerce sales exceeded $60 billion in 2024, and Ottawa businesses that aren't selling online are leaving significant revenue on the table. Whether you're a local retailer looking to expand beyond your physical location, a product-based business wanting to reach customers nationwide, or a startup launching directly online, a professional e-commerce website is the foundation of your sales strategy.",
           "Ottawa's unique position as a bilingual capital city with high household income and tech-savvy population makes it an ideal market for e-commerce. Consumers in the National Capital Region increasingly prefer the convenience of online shopping while still wanting to support local businesses. An e-commerce website lets you capture both local and national customers.",
-          "At Neon Media, we build e-commerce websites that go beyond basic online stores. Our custom e-commerce solutions include conversion-optimized product pages, secure Canadian payment processing, automated inventory management, shipping calculator integration, and the marketing tools you need to grow your online revenue consistently.",
+          "At Neon Web Agency, we build e-commerce websites that go beyond basic online stores. Our custom e-commerce solutions include conversion-optimized product pages, secure Canadian payment processing, automated inventory management, shipping calculator integration, and the marketing tools you need to grow your online revenue consistently.",
         ],
       },
       {
@@ -464,7 +464,7 @@ export const industries: IndustryConfig[] = [
     slug: "contractors",
     title: "Contractor Website Design Ottawa",
     metaTitle:
-      "Contractor Website Design Ottawa | Lead-Generating Websites - Neon Media",
+      "Contractor Website Design Ottawa | Lead-Generating Websites - Neon Web Agency",
     metaDescription:
       "Custom contractor website design in Ottawa. We build lead-generating websites for plumbers, electricians, roofers, and home service professionals that rank on Google.",
     keyword: "contractor website design Ottawa",
@@ -477,7 +477,7 @@ export const industries: IndustryConfig[] = [
         content: [
           "Ottawa homeowners spend over $2 billion annually on home improvements and repairs, and 88% of them start by searching online for local contractors. If your contracting business doesn't have a professional website — or worse, has an outdated one — you're invisible to the vast majority of potential customers.",
           "The contracting industry in Ottawa is highly competitive, with thousands of plumbers, electricians, HVAC technicians, roofers, landscapers, and general contractors vying for the same homeowners. A professional website is what separates successful contractors who consistently land jobs from those who rely solely on word of mouth and struggle during slow seasons.",
-          "At Neon Media, we've built websites for dozens of Ottawa contractors across every trade. We understand what homeowners look for when choosing a contractor: proof of quality work, licensing and insurance information, clear pricing, easy contact methods, and reviews from satisfied customers. We build all of this into every contractor website we create.",
+          "At Neon Web Agency, we've built websites for dozens of Ottawa contractors across every trade. We understand what homeowners look for when choosing a contractor: proof of quality work, licensing and insurance information, clear pricing, easy contact methods, and reviews from satisfied customers. We build all of this into every contractor website we create.",
         ],
       },
       {
@@ -573,7 +573,7 @@ export const industries: IndustryConfig[] = [
     slug: "real-estate",
     title: "Real Estate Website Design Ottawa",
     metaTitle:
-      "Real Estate Website Design Ottawa | IDX & MLS Integration - Neon Media",
+      "Real Estate Website Design Ottawa | IDX & MLS Integration - Neon Web Agency",
     metaDescription:
       "Custom real estate website design in Ottawa with IDX/MLS integration, property listings, and lead capture. Help your real estate business attract more buyers and sellers.",
     keyword: "real estate website design Ottawa",
@@ -586,7 +586,7 @@ export const industries: IndustryConfig[] = [
         content: [
           "Ottawa's real estate market is one of the most active in Canada, with over 17,000 residential transactions annually and an average home price exceeding $650,000. In this competitive market, real estate agents and brokerages who rely solely on their brokerage's generic website are missing out on a massive opportunity to build their personal brand and generate their own leads.",
           "A custom real estate website positions you as the go-to expert in your market area. While portals like Realtor.ca drive awareness, your own website is where you convert that awareness into relationships. Buyers and sellers want to work with agents who demonstrate local expertise, market knowledge, and professionalism — and your website is the first place they evaluate this.",
-          "At Neon Media, we build real estate websites that combine beautiful design with powerful functionality. IDX/MLS integration, property search, neighborhood guides, market reports, and automated lead capture — everything you need to dominate your Ottawa real estate market online.",
+          "At Neon Web Agency, we build real estate websites that combine beautiful design with powerful functionality. IDX/MLS integration, property search, neighborhood guides, market reports, and automated lead capture — everything you need to dominate your Ottawa real estate market online.",
         ],
       },
       {

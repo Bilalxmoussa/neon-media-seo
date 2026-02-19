@@ -49,7 +49,7 @@ export function generateOGImage(title: string, subtitle: string) {
               color: "white",
             }}
           >
-            Neon Media
+            Neon Web Agency
           </span>
         </div>
         <div

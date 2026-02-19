@@ -1,7 +1,7 @@
 export const seoPageConfig = {
   slug: "seo-ottawa",
   title: "SEO Services Ottawa",
-  metaTitle: "SEO Ottawa | SEO Services That Deliver Results - Neon Media",
+  metaTitle: "SEO Ottawa | SEO Services That Deliver Results - Neon Web Agency",
   metaDescription:
     "Professional SEO services in Ottawa. We help businesses rank higher on Google, drive organic traffic, and generate more leads through proven local SEO strategies.",
   keyword: "SEO Ottawa",

@@ -4,7 +4,7 @@
 
 export const siteConfig = {
   // === BUSINESS INFO ===
-  businessName: "Neon Media",
+  businessName: "Neon Web Agency",
   tagline: "Ottawa's Premier Web Design Agency",
   keyword: "Web Design Ottawa",
   city: "Ottawa",
@@ -14,13 +14,13 @@ export const siteConfig = {
   streetAddress: "123 Sparks Street",
   phone: "(613) 558-3577",
   email: "info@neonmediapro.org",
-  website: "https://neonmediapro.org",
+  website: "https://neoncraft.me",
   foundingYear: 2018,
   priceRange: "$$",
-  logoUrl: "https://neonmediapro.org/logo.png",
+  logoUrl: "https://neoncraft.me/logo.png",
 
   // === SEO ===
-  seoTitle: "Web Design Ottawa | Websites That Convert - Neon Media",
+  seoTitle: "Web Design Ottawa | Websites That Convert - Neon Web Agency",
   seoDescription:
     "Ottawa's top-rated web design agency. We build fast, mobile-first websites for small businesses that rank on Google and convert visitors into customers.",
   ogImage: "/og-image.jpg",
@@ -71,7 +71,7 @@ export const siteConfig = {
   intro: {
     heading: "Ottawa Small Business Website Design That Drives Results",
     paragraphs: [
-      "Your website is your most powerful sales tool. In today's digital-first world, Ottawa businesses need more than just an online presence — they need a website that works as hard as they do. At Neon Media, we specialize in web design in Ottawa for small businesses, creating custom websites that look exceptional, load fast, and convert visitors into paying customers.",
+      "Your website is your most powerful sales tool. In today's digital-first world, Ottawa businesses need more than just an online presence — they need a website that works as hard as they do. At Neon Web Agency, we specialize in web design in Ottawa for small businesses, creating custom websites that look exceptional, load fast, and convert visitors into paying customers.",
       "Whether you're a local restaurant on Elgin Street, a professional service firm in the ByWard Market, a contractor in Kanata, or a retail shop in Westboro, our Ottawa web design team understands the local market inside and out. We combine beautiful design with proven SEO strategies to ensure your business stands out in Ottawa's competitive online landscape.",
       "Every website we build is mobile-responsive, optimized for search engines, and designed with your specific business goals in mind. No templates. No cookie-cutter solutions. Just custom web design Ottawa businesses trust to grow their revenue and online visibility.",
       "With over 150 websites launched for businesses across the National Capital Region, we've helped companies in every industry — from healthcare and legal to restaurants and real estate — achieve measurable growth through professional web design. Our clients see an average 200% increase in online leads within the first 6 months of launching their new website.",
@@ -229,14 +229,14 @@ export const siteConfig = {
   testimonials: {
     heading: "What Ottawa Business Owners Say About Our Web Design",
     subheading:
-      "Don't just take our word for it — hear from Ottawa business owners who chose Neon Media for their web design.",
+      "Don't just take our word for it — hear from Ottawa business owners who chose Neon Web Agency for their web design.",
     items: [
       {
         name: "Sarah Mitchell",
         business: "Rideau Dental Clinic",
         role: "Practice Manager",
         quote:
-          "Neon Media completely transformed our online presence. Our new website is beautiful, fast, and brings in new patients every single week. Best investment we've made for our practice. The Ottawa web design team was professional from day one.",
+          "Neon Web Agency completely transformed our online presence. Our new website is beautiful, fast, and brings in new patients every single week. Best investment we've made for our practice. The Ottawa web design team was professional from day one.",
         rating: 5,
       },
       {
@@ -252,7 +252,7 @@ export const siteConfig = {
         business: "Byward Market Bistro",
         role: "General Manager",
         quote:
-          "The team at Neon Media understood exactly what we needed. Our online ordering system works flawlessly and our customers love the new design. Revenue from online orders tripled. They really know Ottawa web design.",
+          "The team at Neon Web Agency understood exactly what we needed. Our online ordering system works flawlessly and our customers love the new design. Revenue from online orders tripled. They really know Ottawa web design.",
         rating: 5,
       },
       {
@@ -260,7 +260,7 @@ export const siteConfig = {
         business: "Ottawa Legal Associates",
         role: "Managing Partner",
         quote:
-          "Professional, responsive, and detail-oriented. Neon Media built us a website that truly reflects the quality of our firm. We've seen a significant increase in consultation requests. Highly recommend their web design services.",
+          "Professional, responsive, and detail-oriented. Neon Web Agency built us a website that truly reflects the quality of our firm. We've seen a significant increase in consultation requests. Highly recommend their web design services.",
         rating: 5,
       },
       {
@@ -268,7 +268,7 @@ export const siteConfig = {
         business: "Glebe Fitness Studio",
         role: "Founder",
         quote:
-          "Our old website was embarrassing. Neon Media designed something we're truly proud of — and our membership sign-ups prove it works. They understood our brand and our Ottawa audience perfectly.",
+          "Our old website was embarrassing. Neon Web Agency designed something we're truly proud of — and our membership sign-ups prove it works. They understood our brand and our Ottawa audience perfectly.",
         rating: 5,
       },
     ],
@@ -339,7 +339,7 @@ export const siteConfig = {
   faq: {
     heading: "Web Design Ottawa — Frequently Asked Questions",
     subheading:
-      "Get answers to the most common questions about web design in Ottawa and working with Neon Media.",
+      "Get answers to the most common questions about web design in Ottawa and working with Neon Web Agency.",
     items: [
       {
         question: "How much does web design cost in Ottawa?",
@@ -377,7 +377,7 @@ export const siteConfig = {
           "We use modern web technologies including Next.js, React, and WordPress depending on your specific needs and budget. For businesses that want to easily manage their own content, we set up user-friendly CMS platforms like WordPress. For maximum performance, speed, and custom functionality, we build with Next.js and React — the same technologies used by major brands.",
       },
       {
-        question: "Why should I choose Neon Media over other Ottawa web designers?",
+        question: "Why should I choose Neon Web Agency over other Ottawa web designers?",
         answer:
           "We combine stunning design with proven marketing strategy. Unlike other Ottawa web design agencies, every website we build is optimized for conversions and search engines from day one. We have a 98% client satisfaction rate, 150+ successful website launches, a 4.9-star Google rating, and we're one of the highest-rated web design agencies in Ottawa. Plus, our transparent pricing means you always know exactly what you're paying for.",
       },
@@ -498,10 +498,10 @@ export const siteConfig = {
       { label: "Local SEO Guide", href: "/blog/local-seo-guide-ottawa" },
     ],
     socialLinks: {
-      facebook: "https://facebook.com/neonmedia",
-      instagram: "https://instagram.com/neonmedia",
-      linkedin: "https://linkedin.com/company/neonmedia",
-      twitter: "https://twitter.com/neonmedia",
+      facebook: "https://facebook.com/neonwebagency",
+      instagram: "https://instagram.com/neonwebagency",
+      linkedin: "https://linkedin.com/company/neonwebagency",
+      twitter: "https://twitter.com/neonwebagency",
     },
   },
 
@@ -523,10 +523,10 @@ export const siteConfig = {
     ],
     openingHours: "Mo-Fr 09:00-17:00",
     sameAs: [
-      "https://facebook.com/neonmedia",
-      "https://instagram.com/neonmedia",
-      "https://linkedin.com/company/neonmedia",
-      "https://twitter.com/neonmedia",
+      "https://facebook.com/neonwebagency",
+      "https://instagram.com/neonwebagency",
+      "https://linkedin.com/company/neonwebagency",
+      "https://twitter.com/neonwebagency",
     ],
   },
 };

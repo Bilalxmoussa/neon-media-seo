@@ -23,7 +23,7 @@ export const blogPosts: BlogPostConfig[] = [
     slug: "web-design-cost-ottawa",
     title: "How Much Does a Website Cost in Ottawa? (2025 Guide)",
     metaTitle:
-      "How Much Does a Website Cost in Ottawa? 2025 Pricing Guide - Neon Media",
+      "How Much Does a Website Cost in Ottawa? 2025 Pricing Guide - Neon Web Agency",
     metaDescription:
       "Discover how much a website costs in Ottawa in 2025. We break down pricing by type, features, and complexity. Transparent guide from Ottawa's top web design agency.",
     keyword: "how much does a website cost in Ottawa",
@@ -97,7 +97,7 @@ export const blogPosts: BlogPostConfig[] = [
           "Get multiple quotes from Ottawa web design agencies, but don't just compare prices — compare what's included. The cheapest quote often excludes SEO, content creation, or responsive design. Look for agencies that include comprehensive SEO, mobile optimization, and post-launch support in their pricing.",
           "Invest in quality content from the start. Your website's content is what actually convinces visitors to become customers. Skimping on content to save $500 can cost you thousands in lost leads. If budget is tight, start with fewer pages that are well-written and optimized rather than more pages with thin content.",
           "Consider total cost of ownership over 2-3 years, not just the upfront build cost. A $2,000 website that requires $200/month in maintenance and generates few leads is more expensive than a $5,000 website that generates consistent revenue and requires minimal ongoing costs.",
-          "At Neon Media, we offer transparent pricing starting at $1,499 for Ottawa businesses. Every project includes a detailed quote upfront, so you know exactly what you're investing in and what results to expect. Book a free strategy call to discuss your specific needs and get an accurate estimate.",
+          "At Neon Web Agency, we offer transparent pricing starting at $1,499 for Ottawa businesses. Every project includes a detailed quote upfront, so you know exactly what you're investing in and what results to expect. Book a free strategy call to discuss your specific needs and get an accurate estimate.",
         ],
       },
     ],
@@ -112,7 +112,7 @@ export const blogPosts: BlogPostConfig[] = [
     slug: "best-website-builders-small-business",
     title: "Best Website Builders for Small Business in 2025",
     metaTitle:
-      "Best Website Builders for Small Business 2025 | Expert Comparison - Neon Media",
+      "Best Website Builders for Small Business 2025 | Expert Comparison - Neon Web Agency",
     metaDescription:
       "Compare the best website builders for small business in 2025. WordPress, Shopify, Wix, Squarespace, and custom options — find the right platform for your business.",
     keyword: "best website builder for small business",
@@ -218,7 +218,7 @@ export const blogPosts: BlogPostConfig[] = [
     slug: "wordpress-vs-custom-website",
     title: "WordPress vs Custom Website: Which Is Right for Your Business?",
     metaTitle:
-      "WordPress vs Custom Website | Honest Comparison 2025 - Neon Media",
+      "WordPress vs Custom Website | Honest Comparison 2025 - Neon Web Agency",
     metaDescription:
       "WordPress vs custom website — which is right for your business? Compare cost, performance, SEO, flexibility, and maintenance in this honest 2025 comparison guide.",
     keyword: "WordPress vs custom website",
@@ -297,7 +297,7 @@ export const blogPosts: BlogPostConfig[] = [
         content: [
           "Choose custom when performance is a critical competitive advantage, when you need unique functionality that plugins can't provide, when you're in a highly competitive SEO market, when you want the most future-proof technology, or when you have budget of $5,000+ and value long-term ROI.",
           "Custom builds are also ideal for SaaS products, web applications, membership platforms, or any project where the website IS the product rather than just a marketing tool.",
-          "At Neon Media, we build custom websites using Next.js and React — the same technologies used by Netflix, Airbnb, and other major tech companies. For Ottawa businesses competing in the most competitive markets, this approach delivers a measurable edge in performance, SEO, and user experience.",
+          "At Neon Web Agency, we build custom websites using Next.js and React — the same technologies used by Netflix, Airbnb, and other major tech companies. For Ottawa businesses competing in the most competitive markets, this approach delivers a measurable edge in performance, SEO, and user experience.",
           "Not sure which option is right for your Ottawa business? Book a free strategy call and we'll recommend the best approach based on your specific goals, budget, and competitive landscape.",
         ],
       },
@@ -313,7 +313,7 @@ export const blogPosts: BlogPostConfig[] = [
     slug: "why-your-business-needs-website-2025",
     title: "Why Your Business Needs a Website in 2025",
     metaTitle:
-      "Why Your Business Needs a Website in 2025 | Ottawa Business Guide - Neon Media",
+      "Why Your Business Needs a Website in 2025 | Ottawa Business Guide - Neon Web Agency",
     metaDescription:
       "Still don't have a website for your business? Here's why every Ottawa business needs a professional website in 2025 — from credibility to lead generation to SEO.",
     keyword: "why your business needs a website",
@@ -383,7 +383,7 @@ export const blogPosts: BlogPostConfig[] = [
           "The cost of building a professional website is measurable — $1,500 to $7,000 for most Ottawa small businesses. But the cost of NOT having a website is far greater, even though it's harder to measure. Every potential customer who searches for your services and doesn't find you represents lost revenue.",
           "Consider: if just 5 potential customers per month can't find you online and go to a competitor instead, and your average customer value is $500, that's $2,500 in lost monthly revenue — $30,000 per year. A $3,500 website investment suddenly looks like the best ROI in your marketing budget.",
           "Social media alone isn't enough. While platforms like Instagram and Facebook are valuable marketing channels, they shouldn't replace a website. You don't own your social media presence — platforms change algorithms, reduce organic reach, and can even suspend accounts. Your website is digital real estate you own and control.",
-          "If you're an Ottawa business owner who's been putting off building a website, 2025 is the year to invest. The gap between businesses with and without professional websites is only growing, and the cost of falling further behind becomes harder to recover from. Contact Neon Media for a free website strategy call and take the first step toward a powerful online presence.",
+          "If you're an Ottawa business owner who's been putting off building a website, 2025 is the year to invest. The gap between businesses with and without professional websites is only growing, and the cost of falling further behind becomes harder to recover from. Contact Neon Web Agency for a free website strategy call and take the first step toward a powerful online presence.",
         ],
       },
     ],
@@ -398,7 +398,7 @@ export const blogPosts: BlogPostConfig[] = [
     slug: "local-seo-guide-ottawa",
     title: "Local SEO Guide for Ottawa Businesses (2025)",
     metaTitle:
-      "Local SEO Guide Ottawa | Rank Higher on Google in 2025 - Neon Media",
+      "Local SEO Guide Ottawa | Rank Higher on Google in 2025 - Neon Web Agency",
     metaDescription:
       "Complete local SEO guide for Ottawa businesses. Learn how to rank higher on Google, optimize your Google Business Profile, and attract more local customers in 2025.",
     keyword: "local SEO guide Ottawa",
@@ -485,7 +485,7 @@ export const blogPosts: BlogPostConfig[] = [
           "Blog about topics relevant to your industry and Ottawa specifically. A contractor might write about 'Preparing Your Ottawa Home for Winter' or 'Best Renovations for Older Ottawa Homes.' A dentist might write about 'Finding the Right Family Dentist in Ottawa' or 'Understanding OHIP+ Coverage for Children's Dental Care.'",
           "Create neighborhood guides and area-specific content. Detailed pages about serving Kanata, Barrhaven, Orleans, and other areas not only target location-specific keywords but also demonstrate genuine local expertise. Include information about the community, local landmarks, and how your services specifically help residents in that area.",
           "Link-building through local partnerships amplifies your content strategy. Sponsor local events, participate in community initiatives, and build relationships with other Ottawa businesses for cross-promotion opportunities. These activities naturally generate backlinks from local websites, which are highly valuable for local SEO.",
-          "Implementing these local SEO strategies consistently can transform your Ottawa business's online visibility. If you need help developing and executing a local SEO strategy, Neon Media offers comprehensive SEO services designed specifically for Ottawa businesses. Contact us for a free SEO audit.",
+          "Implementing these local SEO strategies consistently can transform your Ottawa business's online visibility. If you need help developing and executing a local SEO strategy, Neon Web Agency offers comprehensive SEO services designed specifically for Ottawa businesses. Contact us for a free SEO audit.",
         ],
       },
     ],
@@ -500,7 +500,7 @@ export const blogPosts: BlogPostConfig[] = [
     slug: "how-to-choose-web-designer-ottawa",
     title: "How to Choose a Web Designer in Ottawa (2025 Guide)",
     metaTitle:
-      "How to Choose a Web Designer in Ottawa | 2025 Hiring Guide - Neon Media",
+      "How to Choose a Web Designer in Ottawa | 2025 Hiring Guide - Neon Web Agency",
     metaDescription:
       "Learn how to choose the right web designer in Ottawa. What to look for, red flags to avoid, questions to ask, and how to evaluate portfolios and proposals.",
     keyword: "how to choose a web designer Ottawa",
@@ -576,7 +576,7 @@ export const blogPosts: BlogPostConfig[] = [
           "Ottawa has excellent web design agencies and talented freelancers. Agencies typically offer more comprehensive services (design, development, SEO, content, support) with a team of specialists, but at higher prices. Freelancers offer more personal attention and lower rates, but may lack breadth across all disciplines.",
           "Choose an agency when you need a comprehensive solution (design + development + SEO + content), when the project is complex, when you want ongoing support and maintenance, or when reliability and accountability are critical.",
           "Choose a freelancer when your budget is limited, when the project is relatively simple, when you only need design or only need development, or when you have the internal capability to manage the project closely.",
-          "At Neon Media, we've built our Ottawa web design agency to offer the best of both worlds: the personal attention and communication of a freelancer with the comprehensive capabilities and reliability of an agency. Every client works directly with our senior team, and we handle design, development, SEO, and content under one roof.",
+          "At Neon Web Agency, we've built our Ottawa web design agency to offer the best of both worlds: the personal attention and communication of a freelancer with the comprehensive capabilities and reliability of an agency. Every client works directly with our senior team, and we handle design, development, SEO, and content under one roof.",
           "Ready to discuss your project? Book a free strategy call with our Ottawa web design team. We'll review your goals, audit your current online presence, and provide a custom recommendation — no obligation, just honest advice.",
         ],
       },
