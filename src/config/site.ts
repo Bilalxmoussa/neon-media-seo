@@ -497,6 +497,14 @@ export const siteConfig = {
       { label: "WordPress vs Custom", href: "/blog/wordpress-vs-custom-website" },
       { label: "Local SEO Guide", href: "/blog/local-seo-guide-ottawa" },
     ],
+    locationLinks: [
+      { label: "Web Design Kanata", href: "/web-design-kanata" },
+      { label: "Web Design Barrhaven", href: "/web-design-barrhaven" },
+      { label: "Web Design Orleans", href: "/web-design-orleans" },
+      { label: "Web Design Nepean", href: "/web-design-nepean" },
+      { label: "Web Design Gloucester", href: "/web-design-gloucester" },
+      { label: "Web Design Gatineau", href: "/web-design-gatineau" },
+    ],
     socialLinks: {
       facebook: "https://facebook.com/neonwebagency",
       instagram: "https://instagram.com/neonwebagency",

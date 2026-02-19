@@ -199,6 +199,12 @@ export default function SchemaMarkup() {
       { "@type": "WebPage", name: "E-Commerce Web Design", url: `${siteConfig.website}/web-design-ottawa/ecommerce` },
       { "@type": "WebPage", name: "Contractor Web Design", url: `${siteConfig.website}/web-design-ottawa/contractors` },
       { "@type": "WebPage", name: "Real Estate Web Design", url: `${siteConfig.website}/web-design-ottawa/real-estate` },
+      { "@type": "WebPage", name: "Web Design Kanata", url: `${siteConfig.website}/web-design-kanata` },
+      { "@type": "WebPage", name: "Web Design Barrhaven", url: `${siteConfig.website}/web-design-barrhaven` },
+      { "@type": "WebPage", name: "Web Design Orleans", url: `${siteConfig.website}/web-design-orleans` },
+      { "@type": "WebPage", name: "Web Design Nepean", url: `${siteConfig.website}/web-design-nepean` },
+      { "@type": "WebPage", name: "Web Design Gloucester", url: `${siteConfig.website}/web-design-gloucester` },
+      { "@type": "WebPage", name: "Web Design Gatineau", url: `${siteConfig.website}/web-design-gatineau` },
     ],
   };
 

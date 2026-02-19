@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="bg-dark-light border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-7 gap-8 lg:gap-6">
           <div className="sm:col-span-2 lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center" aria-hidden="true">
@@ -99,6 +99,22 @@ export default function Footer() {
                   All Articles
                 </a>
               </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-white font-semibold mb-4 text-sm">Locations</h4>
+            <ul className="space-y-2.5">
+              {footer.locationLinks.map((link) => (
+                <li key={link.href}>
+                  <a
+                    href={link.href}
+                    className="text-gray-400 hover:text-white transition-colors text-sm"
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
 
