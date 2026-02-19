@@ -14,10 +14,10 @@ export const siteConfig = {
   streetAddress: "123 Sparks Street",
   phone: "(613) 558-3577",
   email: "info@neonmediapro.org",
-  website: "https://neonmedia.ca",
+  website: "https://neonmediapro.org",
   foundingYear: 2018,
   priceRange: "$$",
-  logoUrl: "https://neonmedia.ca/logo.png",
+  logoUrl: "https://neonmediapro.org/logo.png",
 
   // === SEO ===
   seoTitle: "Web Design Ottawa | Websites That Convert - Neon Media",

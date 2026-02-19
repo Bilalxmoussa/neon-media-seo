@@ -92,7 +92,7 @@ export function generateOGImage(title: string, subtitle: string) {
               fontWeight: 600,
             }}
           >
-            neonmedia.ca
+            neonmediapro.org
           </div>
           <span style={{ color: "#64748B", fontSize: "16px" }}>
             Ottawa&apos;s Premier Web Design Agency
