@@ -1,72 +1,79 @@
+"use client";
+
+import { useState, useEffect } from "react";
 import { siteConfig } from "@/config/site";
 
 export default function Hero() {
   const { hero } = siteConfig;
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setIsMounted(true), 100);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
-    <section className="relative pt-24 lg:pt-32 pb-16 lg:pb-24 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-white to-secondary/5" />
-      <div className="absolute top-20 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl" aria-hidden="true" />
-      <div className="absolute bottom-0 left-0 w-72 h-72 bg-secondary/10 rounded-full blur-3xl" aria-hidden="true" />
+    <section className="relative isolate min-h-screen overflow-hidden bg-gradient-to-br from-gray-50 via-white to-sky-50">
+      {/* Decorative blobs */}
+      <div aria-hidden className="absolute top-0 right-0 -z-10 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl" />
+      <div aria-hidden className="absolute bottom-0 left-0 -z-10 w-[400px] h-[400px] bg-secondary/5 rounded-full blur-3xl" />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-6">
-            <span className="w-2 h-2 bg-primary rounded-full animate-pulse" aria-hidden="true" />
-            {siteConfig.city}&apos;s #1 Rated Web Design Agency
-          </div>
+      <div className="relative z-10 mx-auto grid w-full max-w-5xl place-items-center px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:pt-44 lg:pb-28">
+        <div className={`mx-auto text-center ${isMounted ? "animate-fadeInUp" : "opacity-0"}`}>
+          <span className="inline-flex items-center gap-2 rounded-full bg-primary/5 px-3 py-1 text-[11px] uppercase tracking-wider text-primary ring-1 ring-primary/20">
+            <span className="h-1.5 w-1.5 rounded-full bg-primary" /> Ottawa&apos;s Top-Rated Web Design Agency
+          </span>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-dark leading-tight mb-6">
+          <h1
+            style={{ animationDelay: "200ms" }}
+            className={`mt-6 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl ${isMounted ? "animate-fadeInUp" : "opacity-0"}`}
+          >
             {hero.headline}
-            <span className="block text-primary mt-2">
+            <span className="block gradient-text mt-2">
               {hero.heroSuffix}
             </span>
           </h1>
 
-          <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
+          <p
+            style={{ animationDelay: "300ms" }}
+            className={`mx-auto mt-5 max-w-2xl text-balance text-gray-600 md:text-lg ${isMounted ? "animate-fadeInUp" : "opacity-0"}`}
+          >
             {hero.subheadline}
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+          <div
+            style={{ animationDelay: "400ms" }}
+            className={`mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row ${isMounted ? "animate-fadeInUp" : "opacity-0"}`}
+          >
             <a
               href={hero.ctaLink}
-              className="inline-flex items-center justify-center bg-primary text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-primary-dark transition-all hover:shadow-lg hover:shadow-primary/25 hover:-translate-y-0.5"
+              className="inline-flex items-center justify-center rounded-full bg-primary px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-primary/25 transition hover:bg-primary-dark hover:-translate-y-0.5"
               aria-label={`${hero.ctaText} with ${siteConfig.businessName}`}
             >
               {hero.ctaText}
-              <svg
-                className="w-5 h-5 ml-2"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                />
-              </svg>
             </a>
             <a
               href={hero.secondaryCtaLink}
-              className="inline-flex items-center justify-center border-2 border-gray-200 text-gray-700 px-8 py-4 rounded-xl text-lg font-semibold hover:border-primary hover:text-primary transition-all"
+              className="inline-flex items-center justify-center rounded-full border border-gray-200 px-6 py-3 text-sm font-semibold text-gray-700 hover:border-gray-300 hover:bg-gray-50 transition"
             >
               {hero.secondaryCtaText}
             </a>
           </div>
+        </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 lg:gap-12 max-w-3xl mx-auto">
-            {hero.stats.map((stat) => (
-              <div key={stat.label} className="text-center">
-                <div className="text-2xl lg:text-3xl font-extrabold text-dark">
-                  {stat.value}
-                </div>
-                <div className="text-sm text-gray-500 mt-1">{stat.label}</div>
+        {/* Stats */}
+        <div
+          style={{ animationDelay: "500ms" }}
+          className={`mt-16 grid grid-cols-2 sm:grid-cols-4 gap-6 lg:gap-8 w-full max-w-3xl ${isMounted ? "animate-fadeInUp" : "opacity-0"}`}
+        >
+          {hero.stats.map((stat) => (
+            <div key={stat.label} className="text-center bg-white rounded-2xl p-4 shadow-sm border border-gray-100">
+              <div className="text-2xl lg:text-3xl font-extrabold text-primary">
+                {stat.value}
               </div>
-            ))}
-          </div>
+              <div className="text-sm text-gray-500 mt-1">{stat.label}</div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

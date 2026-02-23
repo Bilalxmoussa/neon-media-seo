@@ -30,7 +30,7 @@ export function generateOGImage(title: string, subtitle: string) {
             style={{
               width: "48px",
               height: "48px",
-              background: "#6C3CE1",
+              background: "#84ABBF",
               borderRadius: "12px",
               display: "flex",
               alignItems: "center",
@@ -84,7 +84,7 @@ export function generateOGImage(title: string, subtitle: string) {
         >
           <div
             style={{
-              background: "#6C3CE1",
+              background: "#84ABBF",
               color: "white",
               padding: "12px 28px",
               borderRadius: "12px",
