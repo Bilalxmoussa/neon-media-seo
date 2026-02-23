@@ -1,4 +1,4 @@
-import Hero from "@/components/Hero";
+import { Web3HeroAnimated } from "@/components/ui/animated-web3-landing-page";
 import TrustBar from "@/components/TrustBar";
 import Intro from "@/components/Intro";
 import Services from "@/components/Services";
@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <SchemaMarkup />
       <main>
-        <Hero />
+        <Web3HeroAnimated />
         <TrustBar />
         <Intro />
         <Services />
