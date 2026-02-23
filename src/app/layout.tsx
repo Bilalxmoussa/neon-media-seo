@@ -17,18 +17,16 @@ export const metadata: Metadata = {
   title: siteConfig.seoTitle,
   description: siteConfig.seoDescription,
   keywords: [
-    siteConfig.keyword,
-    `web design ${siteConfig.city}`,
-    `website design ${siteConfig.city}`,
-    `${siteConfig.city} web designer`,
-    `${siteConfig.city} website development`,
-    `small business web design ${siteConfig.city}`,
-    `affordable web design ${siteConfig.city}`,
-    `custom website ${siteConfig.city}`,
-    `responsive web design ${siteConfig.city}`,
-    `local SEO ${siteConfig.city}`,
-    `web design agency ${siteConfig.city}`,
-    `website redesign ${siteConfig.city}`,
+    "web design Ottawa",
+    "Ottawa web designer",
+    "website development Ottawa",
+    "SEO Ottawa",
+    "local SEO Ottawa",
+    "WordPress Ottawa",
+    "e-commerce Ottawa",
+    "web design Kanata",
+    "web design Barrhaven",
+    "Ottawa web agency",
   ],
   authors: [{ name: siteConfig.businessName }],
   openGraph: {
@@ -44,7 +42,7 @@ export const metadata: Metadata = {
         alt: `${siteConfig.keyword} - ${siteConfig.businessName}`,
       },
     ],
-    locale: "en_CA",
+    locale: "en",
     type: "website",
   },
   twitter: {
@@ -75,9 +73,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en-CA">
+    <html lang="en">
       <head>
         <meta name="google-site-verification" content="MlHT0fiBm-JsKMFYFUK2T3q5iV1NDkjk4OBDuNcrjlA" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: siteConfig.businessName,
+              url: siteConfig.website,
+              logo: siteConfig.logoUrl,
+              email: siteConfig.email,
+              sameAs: [],
+            }),
+          }}
+        />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />

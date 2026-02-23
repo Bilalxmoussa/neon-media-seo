@@ -61,7 +61,7 @@ export default function IndustryPageTemplate({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumbs
             items={[
-              { label: "Web Design Ottawa", href: "/#services" },
+              { label: "Industries", href: "/#industries" },
               { label: industry.title, href: `/web-design-ottawa/${industry.slug}` },
             ]}
           />
@@ -71,7 +71,7 @@ export default function IndustryPageTemplate({
         <section className="bg-gradient-to-b from-gray-50 to-white py-12 lg:py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-dark mb-6 leading-tight">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 {industry.h1}
               </h1>
               <p className="text-lg lg:text-xl text-gray-600 leading-relaxed mb-8">
@@ -80,15 +80,13 @@ export default function IndustryPageTemplate({
               <div className="flex flex-wrap gap-4">
                 <a
                   href={siteConfig.cta.buttonLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-primary text-white px-8 py-4 rounded-xl font-semibold hover:bg-primary-dark transition-all hover:shadow-lg"
+                  className="rounded-full bg-primary text-white px-8 py-4 font-semibold hover:bg-primary-dark transition-all hover:shadow-lg shadow-primary/25"
                 >
-                  Get a Free Quote
+                  Free Strategy Call
                 </a>
                 <a
                   href="/#portfolio"
-                  className="border border-gray-200 text-gray-700 px-8 py-4 rounded-xl font-semibold hover:border-primary hover:text-primary transition-all"
+                  className="border border-gray-200 text-gray-700 px-8 py-4 rounded-full font-semibold hover:border-gray-300 hover:bg-gray-50 transition-all"
                 >
                   View Our Work
                 </a>
@@ -133,24 +131,20 @@ export default function IndustryPageTemplate({
                     items={[
                       ...relatedIndustryItems,
                       ...relatedBlogLinks,
-                      { title: "SEO Services Ottawa", href: "/seo-ottawa", type: "service" },
                     ]}
                   />
                   <div className="bg-primary rounded-xl p-6 text-white">
                     <h3 className="font-semibold text-lg mb-2">
-                      Free Strategy Call
+                      Need a Website?
                     </h3>
                     <p className="text-white/80 text-sm mb-4">
-                      Discuss your {industry.slug.replace("-", " ")} website
-                      project with our team.
+                      Get a custom website built for your industry — designed to convert visitors into customers.
                     </p>
                     <a
                       href={siteConfig.cta.buttonLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block w-full bg-white text-primary text-center py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+                      className="block w-full bg-white text-primary text-center py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors"
                     >
-                      Book Now
+                      Get Started
                     </a>
                   </div>
                 </div>
@@ -162,14 +156,14 @@ export default function IndustryPageTemplate({
         {/* Features */}
         <section className="py-12 lg:py-20 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-dark mb-12 text-center">
-              What&apos;s Included in Your {industry.title.split(" ")[0]} Website
+            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
+              Key Features for {industry.title}
             </h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {industry.features.map((feature) => (
                 <div
                   key={feature.title}
-                  className="bg-white rounded-xl p-6 border border-gray-100"
+                  className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all"
                 >
                   <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                     <svg
@@ -187,7 +181,7 @@ export default function IndustryPageTemplate({
                       />
                     </svg>
                   </div>
-                  <h3 className="font-semibold text-dark mb-2">
+                  <h3 className="font-semibold text-gray-900 mb-2">
                     {feature.title}
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
@@ -202,14 +196,14 @@ export default function IndustryPageTemplate({
         {/* FAQ */}
         <section className="py-12 lg:py-20">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-dark mb-8 text-center">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
               Frequently Asked Questions
             </h2>
             <div className="space-y-3">
               {industry.faqs.map((faq, index) => (
                 <div
                   key={index}
-                  className="bg-white rounded-xl border border-gray-100 overflow-hidden"
+                  className="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden"
                 >
                   <h3>
                     <button
@@ -219,11 +213,11 @@ export default function IndustryPageTemplate({
                       }
                       aria-expanded={openFaq === index}
                     >
-                      <span className="font-semibold text-dark pr-4">
+                      <span className="font-semibold text-gray-900 pr-4">
                         {faq.question}
                       </span>
                       <svg
-                        className={`w-5 h-5 text-gray-500 flex-shrink-0 transition-transform duration-200 ${
+                        className={`w-5 h-5 text-gray-400 flex-shrink-0 transition-transform duration-200 ${
                           openFaq === index ? "rotate-180" : ""
                         }`}
                         fill="none"
@@ -255,7 +249,7 @@ export default function IndustryPageTemplate({
 
         {/* Internal Links */}
         <InternalLinks
-          heading="Explore More Web Design Services"
+          heading="Explore More Industries"
           links={relatedIndustryLinks}
         />
 

@@ -1,18 +1,16 @@
 import { siteConfig } from "@/config/site";
 
 export default function SchemaMarkup() {
-  const localBusinessSchema = {
+  const organizationSchema = {
     "@context": "https://schema.org",
-    "@type": siteConfig.schema.type,
+    "@type": "LocalBusiness",
     name: siteConfig.businessName,
-    description: siteConfig.seoDescription,
     url: siteConfig.website,
-    telephone: siteConfig.phone,
-    email: siteConfig.email,
-    image: siteConfig.logoUrl,
     logo: siteConfig.logoUrl,
-    foundingDate: siteConfig.foundingYear.toString(),
-    priceRange: siteConfig.priceRange,
+    image: siteConfig.logoUrl,
+    description: siteConfig.seoDescription,
+    email: siteConfig.email,
+    telephone: siteConfig.phone,
     address: {
       "@type": "PostalAddress",
       streetAddress: siteConfig.streetAddress,
@@ -26,10 +24,6 @@ export default function SchemaMarkup() {
       latitude: siteConfig.schema.geo.latitude,
       longitude: siteConfig.schema.geo.longitude,
     },
-    areaServed: siteConfig.schema.areaServed.map((area) => ({
-      "@type": "City",
-      name: area,
-    })),
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
@@ -37,83 +31,33 @@ export default function SchemaMarkup() {
       closes: "17:00",
     },
     sameAs: siteConfig.schema.sameAs,
+    areaServed: siteConfig.schema.areaServed.map((area) => ({
+      "@type": "City",
+      name: area,
+    })),
+    knowsAbout: [
+      "Web Design",
+      "Web Development",
+      "SEO",
+      "Local SEO",
+      "WordPress",
+      "E-Commerce",
+      "Responsive Design",
+    ],
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: siteConfig.ratings.ratingValue,
       reviewCount: siteConfig.ratings.reviewCount,
       bestRating: siteConfig.ratings.bestRating,
     },
-    review: siteConfig.testimonials.items.map((t) => ({
-      "@type": "Review",
-      author: {
-        "@type": "Person",
-        name: t.name,
-      },
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: t.rating.toString(),
-        bestRating: "5",
-      },
-      reviewBody: t.quote,
-      datePublished: "2024-01-15",
-    })),
-    hasOfferCatalog: {
-      "@type": "OfferCatalog",
-      name: "Web Design Services",
-      itemListElement: siteConfig.services.items.map((service) => ({
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: service.title,
-          description: service.description,
-          provider: {
-            "@type": "LocalBusiness",
-            name: siteConfig.businessName,
-          },
-          areaServed: {
-            "@type": "City",
-            name: siteConfig.city,
-          },
-        },
-      })),
-    },
-  };
-
-  const organizationSchema = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    name: siteConfig.businessName,
-    url: siteConfig.website,
-    logo: siteConfig.logoUrl,
-    image: siteConfig.logoUrl,
-    description: siteConfig.seoDescription,
-    telephone: siteConfig.phone,
-    email: siteConfig.email,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: siteConfig.streetAddress,
-      addressLocality: siteConfig.city,
-      addressRegion: siteConfig.province,
-      postalCode: siteConfig.postalCode,
-      addressCountry: siteConfig.country,
-    },
-    sameAs: siteConfig.schema.sameAs,
+    priceRange: siteConfig.priceRange,
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: siteConfig.phone,
       contactType: "customer service",
+      telephone: siteConfig.phone,
       email: siteConfig.email,
       availableLanguage: ["English", "French"],
     },
-    knowsAbout: [
-      "Web Design",
-      "Website Development",
-      "SEO",
-      "Digital Marketing",
-      "E-Commerce",
-      "WordPress",
-      "Next.js",
-    ],
   };
 
   const faqSchema = {
@@ -129,26 +73,13 @@ export default function SchemaMarkup() {
     })),
   };
 
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "Home",
-        item: siteConfig.website,
-      },
-    ],
-  };
-
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
     name: siteConfig.seoTitle,
     description: siteConfig.seoDescription,
     url: siteConfig.website,
-    inLanguage: "en-CA",
+    inLanguage: "en",
     isPartOf: {
       "@type": "WebSite",
       name: siteConfig.businessName,
@@ -156,14 +87,10 @@ export default function SchemaMarkup() {
     },
     about: {
       "@type": "Thing",
-      name: "Web Design",
-    },
-    mentions: {
-      "@type": "City",
-      name: siteConfig.city,
+      name: "Web Design Ottawa",
     },
     provider: {
-      "@type": "LocalBusiness",
+      "@type": "Organization",
       name: siteConfig.businessName,
     },
   };
@@ -178,11 +105,6 @@ export default function SchemaMarkup() {
       "@type": "Organization",
       name: siteConfig.businessName,
     },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: `${siteConfig.website}/blog?q={search_term_string}`,
-      "query-input": "required name=search_term_string",
-    },
   };
 
   const siteNavigationSchema = {
@@ -190,17 +112,18 @@ export default function SchemaMarkup() {
     "@type": "SiteNavigationElement",
     name: "Main Navigation",
     hasPart: [
-      { "@type": "WebPage", name: "Web Design Ottawa", url: siteConfig.website },
-      { "@type": "WebPage", name: "SEO Services Ottawa", url: `${siteConfig.website}/seo-ottawa` },
+      { "@type": "WebPage", name: "Home", url: siteConfig.website },
+      { "@type": "WebPage", name: "Web Design Ottawa", url: `${siteConfig.website}/web-design-ottawa` },
+      { "@type": "WebPage", name: "SEO Ottawa", url: `${siteConfig.website}/seo-ottawa` },
       { "@type": "WebPage", name: "Blog", url: `${siteConfig.website}/blog` },
-      { "@type": "WebPage", name: "Restaurant Web Design", url: `${siteConfig.website}/web-design-ottawa/restaurants` },
       { "@type": "WebPage", name: "Dental Web Design", url: `${siteConfig.website}/web-design-ottawa/dental` },
-      { "@type": "WebPage", name: "Law Firm Web Design", url: `${siteConfig.website}/web-design-ottawa/lawyers` },
+      { "@type": "WebPage", name: "Restaurant Web Design", url: `${siteConfig.website}/web-design-ottawa/restaurants` },
+      { "@type": "WebPage", name: "Lawyer Web Design", url: `${siteConfig.website}/web-design-ottawa/lawyers` },
       { "@type": "WebPage", name: "E-Commerce Web Design", url: `${siteConfig.website}/web-design-ottawa/ecommerce` },
       { "@type": "WebPage", name: "Contractor Web Design", url: `${siteConfig.website}/web-design-ottawa/contractors` },
       { "@type": "WebPage", name: "Real Estate Web Design", url: `${siteConfig.website}/web-design-ottawa/real-estate` },
-      { "@type": "WebPage", name: "Web Design Kanata", url: `${siteConfig.website}/web-design-kanata` },
       { "@type": "WebPage", name: "Web Design Barrhaven", url: `${siteConfig.website}/web-design-barrhaven` },
+      { "@type": "WebPage", name: "Web Design Kanata", url: `${siteConfig.website}/web-design-kanata` },
       { "@type": "WebPage", name: "Web Design Orleans", url: `${siteConfig.website}/web-design-orleans` },
       { "@type": "WebPage", name: "Web Design Nepean", url: `${siteConfig.website}/web-design-nepean` },
       { "@type": "WebPage", name: "Web Design Gloucester", url: `${siteConfig.website}/web-design-gloucester` },
@@ -214,25 +137,19 @@ export default function SchemaMarkup() {
     name: service.title,
     description: service.description,
     provider: {
-      "@type": "LocalBusiness",
+      "@type": "Organization",
       name: siteConfig.businessName,
       url: siteConfig.website,
     },
-    areaServed: siteConfig.schema.areaServed.map((area) => ({
-      "@type": "City",
-      name: area,
-    })),
     serviceType: "Web Design",
+    areaServed: {
+      "@type": "City",
+      name: "Ottawa",
+    },
   }));
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(localBusinessSchema),
-        }}
-      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -243,12 +160,6 @@ export default function SchemaMarkup() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(faqSchema),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(breadcrumbSchema),
         }}
       />
       <script

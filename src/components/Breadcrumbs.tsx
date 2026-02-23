@@ -23,12 +23,12 @@ export default function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
         }}
       />
       <nav aria-label="Breadcrumb" className="py-4">
-        <ol className="flex flex-wrap items-center gap-1.5 text-sm text-gray-500">
+        <ol className="flex flex-wrap items-center gap-1.5 text-sm text-gray-400">
           {allItems.map((item, index) => (
             <li key={item.href} className="flex items-center gap-1.5">
               {index > 0 && (
                 <svg
-                  className="w-3.5 h-3.5 text-gray-400"
+                  className="w-3.5 h-3.5 text-gray-300"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -43,13 +43,13 @@ export default function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
                 </svg>
               )}
               {index === allItems.length - 1 ? (
-                <span className="text-gray-700 font-medium" aria-current="page">
+                <span className="text-gray-600 font-medium" aria-current="page">
                   {item.label}
                 </span>
               ) : (
                 <a
                   href={item.href}
-                  className="hover:text-primary transition-colors"
+                  className="hover:text-gray-700 transition-colors"
                 >
                   {item.label}
                 </a>

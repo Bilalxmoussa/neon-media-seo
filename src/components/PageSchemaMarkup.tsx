@@ -19,6 +19,9 @@ interface PageSchemaProps {
     datePublished: string;
     dateModified: string;
     image?: string;
+    wordCount?: number;
+    keywords?: string[];
+    articleSection?: string;
   };
   webpage?: {
     title: string;

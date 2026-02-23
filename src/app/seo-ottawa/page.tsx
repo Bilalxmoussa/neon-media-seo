@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 import { seoPageConfig } from "@/config/seo-page";
 import { blogPosts } from "@/config/blog-posts";
 import { industries } from "@/config/industries";
+import { generatePageMetadata } from "@/lib/metadata";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import SharedCTA from "@/components/SharedCTA";
 import InternalLinks from "@/components/InternalLinks";
@@ -10,21 +10,11 @@ import RelatedContent from "@/components/RelatedContent";
 import PageSchemaMarkup from "@/components/PageSchemaMarkup";
 import SEOFaq from "./SEOFaq";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: seoPageConfig.metaTitle,
   description: seoPageConfig.metaDescription,
-  alternates: {
-    canonical: `${siteConfig.website}/seo-ottawa`,
-  },
-  openGraph: {
-    title: seoPageConfig.metaTitle,
-    description: seoPageConfig.metaDescription,
-    url: `${siteConfig.website}/seo-ottawa`,
-    siteName: siteConfig.businessName,
-    locale: "en_CA",
-    type: "website",
-  },
-};
+  url: `${siteConfig.website}/seo-ottawa`,
+});
 
 export default function SEOOttawaPage() {
   const relatedBlogLinks = seoPageConfig.relatedBlogSlugs

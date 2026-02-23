@@ -1,28 +1,17 @@
-import type { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 import { blogPosts } from "@/config/blog-posts";
+import { generatePageMetadata } from "@/lib/metadata";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import BlogCard from "@/components/BlogCard";
 import SharedCTA from "@/components/SharedCTA";
 import PageSchemaMarkup from "@/components/PageSchemaMarkup";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: `Web Design & SEO Blog | ${siteConfig.businessName}`,
   description:
     "Expert web design and SEO tips for Ottawa businesses. Learn about website costs, best platforms, local SEO strategies, and how to grow your business online.",
-  alternates: {
-    canonical: `${siteConfig.website}/blog`,
-  },
-  openGraph: {
-    title: `Web Design & SEO Blog | ${siteConfig.businessName}`,
-    description:
-      "Expert web design and SEO tips for Ottawa businesses. Learn about website costs, best platforms, local SEO strategies, and how to grow your business online.",
-    url: `${siteConfig.website}/blog`,
-    siteName: siteConfig.businessName,
-    locale: "en_CA",
-    type: "website",
-  },
-};
+  url: `${siteConfig.website}/blog`,
+});
 
 export default function BlogPage() {
   return (

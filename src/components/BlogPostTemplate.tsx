@@ -43,7 +43,7 @@ export default function BlogPostTemplate({
   ];
 
   const formattedDate = new Date(post.datePublished).toLocaleDateString(
-    "en-CA",
+    "en-US",
     { year: "numeric", month: "long", day: "numeric" }
   );
 
@@ -57,6 +57,9 @@ export default function BlogPostTemplate({
           url: `${siteConfig.website}/blog/${post.slug}`,
           datePublished: post.datePublished,
           dateModified: post.dateModified,
+          wordCount: post.wordCount,
+          keywords: post.keywords,
+          articleSection: "Web Design & SEO",
         }}
       />
 
@@ -73,12 +76,12 @@ export default function BlogPostTemplate({
         {/* Article Header */}
         <section className="bg-gradient-to-b from-gray-50 to-white py-12 lg:py-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center gap-3 text-sm text-gray-500 mb-4">
+            <div className="flex items-center gap-3 text-sm text-gray-400 mb-4">
               <time dateTime={post.datePublished}>{formattedDate}</time>
               <span>&middot;</span>
               <span>{post.readTime}</span>
             </div>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-dark mb-6 leading-tight">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
               {post.title}
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed">
@@ -106,23 +109,25 @@ export default function BlogPostTemplate({
                 </div>
 
                 {/* Author box */}
-                <div className="mt-12 p-6 bg-gray-50 rounded-xl flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold">N</span>
+                <div className="mt-12 p-6 bg-gray-50 border border-gray-100 rounded-xl flex items-start gap-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                    <span className="text-primary font-bold">BM</span>
                   </div>
                   <div>
-                    <div className="font-semibold text-dark">
-                      {siteConfig.businessName} Team
+                    <div className="font-semibold text-gray-900">
+                      {siteConfig.author.name}
+                    </div>
+                    <div className="text-xs text-gray-500">
+                      {siteConfig.author.title} at {siteConfig.businessName}
                     </div>
                     <p className="text-sm text-gray-600 mt-1">
-                      Ottawa&apos;s trusted web design agency. We share practical
-                      insights to help local businesses grow online.
+                      {siteConfig.author.bio}
                     </p>
                     <a
                       href="/"
                       className="text-primary text-sm font-medium hover:underline mt-2 inline-block"
                     >
-                      Learn more about our services
+                      View all services
                     </a>
                   </div>
                 </div>
@@ -137,16 +142,13 @@ export default function BlogPostTemplate({
                       Need a Website?
                     </h3>
                     <p className="text-white/80 text-sm mb-4">
-                      Get a free strategy call and custom quote for your Ottawa
-                      business website.
+                      Get a custom website designed for your Ottawa business — fast, SEO-optimized, and built to convert.
                     </p>
                     <a
                       href={siteConfig.cta.buttonLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block w-full bg-white text-primary text-center py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+                      className="block w-full bg-white text-primary text-center py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors"
                     >
-                      Book Free Call
+                      Free Strategy Call
                     </a>
                   </div>
                 </div>

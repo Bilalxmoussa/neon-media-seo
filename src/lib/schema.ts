@@ -27,23 +27,10 @@ export function generateServiceSchema(service: {
     description: service.description,
     url: service.url,
     provider: {
-      "@type": "LocalBusiness",
+      "@type": "Organization",
       name: siteConfig.businessName,
       url: siteConfig.website,
-      telephone: siteConfig.phone,
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: siteConfig.streetAddress,
-        addressLocality: siteConfig.city,
-        addressRegion: siteConfig.province,
-        postalCode: siteConfig.postalCode,
-        addressCountry: siteConfig.country,
-      },
     },
-    areaServed: siteConfig.schema.areaServed.map((area) => ({
-      "@type": "City",
-      name: area,
-    })),
     serviceType: "Web Design",
   };
 }
@@ -72,21 +59,36 @@ export function generateArticleSchema(article: {
   datePublished: string;
   dateModified: string;
   image?: string;
+  wordCount?: number;
+  articleSection?: string;
+  keywords?: string[];
 }) {
   return {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     headline: article.title,
     description: article.description,
     url: article.url,
     datePublished: article.datePublished,
     dateModified: article.dateModified,
     image: article.image || `${siteConfig.website}/og-image.jpg`,
-    author: {
-      "@type": "Organization",
-      name: siteConfig.businessName,
-      url: siteConfig.website,
-    },
+    inLanguage: "en",
+    ...(article.wordCount && { wordCount: article.wordCount }),
+    ...(article.articleSection && { articleSection: article.articleSection }),
+    ...(article.keywords && { keywords: article.keywords.join(", ") }),
+    author: [
+      {
+        "@type": "Person",
+        name: siteConfig.author.name,
+        jobTitle: siteConfig.author.title,
+        url: siteConfig.website,
+      },
+      {
+        "@type": "Organization",
+        name: siteConfig.businessName,
+        url: siteConfig.website,
+      },
+    ],
     publisher: {
       "@type": "Organization",
       name: siteConfig.businessName,
@@ -114,14 +116,14 @@ export function generateWebPageSchema(page: {
     name: page.title,
     description: page.description,
     url: page.url,
-    inLanguage: "en-CA",
+    inLanguage: "en",
     isPartOf: {
       "@type": "WebSite",
       name: siteConfig.businessName,
       url: siteConfig.website,
     },
     provider: {
-      "@type": "LocalBusiness",
+      "@type": "Organization",
       name: siteConfig.businessName,
     },
   };

@@ -1,27 +1,17 @@
-import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { siteConfig } from "@/config/site";
 import { getIndustryBySlug } from "@/config/industries";
+import { generatePageMetadata } from "@/lib/metadata";
 import IndustryPageTemplate from "@/components/IndustryPageTemplate";
 
 const industry = getIndustryBySlug("lawyers");
 
-export const metadata: Metadata = industry
-  ? {
+export const metadata = industry
+  ? generatePageMetadata({
       title: industry.metaTitle,
       description: industry.metaDescription,
-      alternates: {
-        canonical: `${siteConfig.website}/web-design-ottawa/lawyers`,
-      },
-      openGraph: {
-        title: industry.metaTitle,
-        description: industry.metaDescription,
-        url: `${siteConfig.website}/web-design-ottawa/lawyers`,
-        siteName: siteConfig.businessName,
-        locale: "en_CA",
-        type: "website",
-      },
-    }
+      url: `${siteConfig.website}/web-design-ottawa/lawyers`,
+    })
   : {};
 
 export default function LawyersPage() {

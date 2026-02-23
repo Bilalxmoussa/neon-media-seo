@@ -13,7 +13,7 @@ export default function BlogCard({
   readTime,
   datePublished,
 }: BlogCardProps) {
-  const formattedDate = new Date(datePublished).toLocaleDateString("en-CA", {
+  const formattedDate = new Date(datePublished).toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
     day: "numeric",
@@ -22,12 +22,12 @@ export default function BlogCard({
   return (
     <a
       href={`/blog/${slug}`}
-      className="group bg-white rounded-xl border border-gray-100 overflow-hidden hover:shadow-lg hover:border-primary/30 transition-all"
+      className="group bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden hover:shadow-md transition-all"
     >
       <div className="bg-gradient-to-br from-primary/5 to-secondary/5 h-48 flex items-center justify-center">
-        <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center">
+        <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center">
           <svg
-            className="w-8 h-8 text-primary"
+            className="w-8 h-8 text-gray-400"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -43,12 +43,12 @@ export default function BlogCard({
         </div>
       </div>
       <div className="p-6">
-        <div className="flex items-center gap-3 text-xs text-gray-500 mb-3">
+        <div className="flex items-center gap-3 text-xs text-gray-400 mb-3">
           <time dateTime={datePublished}>{formattedDate}</time>
           <span>&middot;</span>
           <span>{readTime}</span>
         </div>
-        <h3 className="text-lg font-semibold text-dark group-hover:text-primary transition-colors mb-2 line-clamp-2">
+        <h3 className="text-lg font-semibold text-gray-900 group-hover:text-primary transition-colors mb-2 line-clamp-2">
           {title}
         </h3>
         <p className="text-gray-600 text-sm leading-relaxed line-clamp-3">

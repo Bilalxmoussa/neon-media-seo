@@ -14,7 +14,7 @@ export default function InternalLinks({
   return (
     <section className="py-12 lg:py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-2xl sm:text-3xl font-bold text-dark mb-8 text-center">
+        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-8 text-center">
           {heading}
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -22,9 +22,9 @@ export default function InternalLinks({
             <a
               key={link.href}
               href={link.href}
-              className="group bg-white rounded-xl p-6 border border-gray-100 hover:border-primary/30 hover:shadow-lg transition-all"
+              className="group bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all"
             >
-              <h3 className="font-semibold text-dark group-hover:text-primary transition-colors mb-2">
+              <h3 className="font-semibold text-gray-900 group-hover:text-primary transition-colors mb-2">
                 {link.title}
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
