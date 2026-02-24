@@ -19,18 +19,18 @@ export function Web3HeroAnimated() {
   return (
     <section className="relative isolate h-screen overflow-hidden bg-black text-white">
       {/* ================== BACKGROUND ================== */}
-      {/* Luminous elliptical gradients — steel-blue palette */}
+      {/* Luminous elliptical gradients — red/rose/violet palette */}
       <div
         aria-hidden
         className="absolute inset-0 -z-30"
         style={{
           backgroundImage: [
-            // Main central dome — steel-blue band
-            "radial-gradient(80% 55% at 50% 52%, rgba(132,171,191,0.45) 0%, rgba(90,143,168,0.46) 27%, rgba(36,56,67,0.38) 47%, rgba(30,41,59,0.45) 60%, rgba(8,8,12,0.92) 78%, rgba(0,0,0,1) 88%)",
-            // Warm sweep from top-left — lighter primary
-            "radial-gradient(85% 60% at 14% 0%, rgba(163,196,212,0.65) 0%, rgba(104,146,168,0.58) 30%, rgba(28,44,48,0.0) 64%)",
-            // Cool accent rim on top-right
-            "radial-gradient(70% 50% at 86% 22%, rgba(88,160,210,0.40) 0%, rgba(16,18,28,0.0) 55%)",
+            // Main central dome — warm red/coral band
+            "radial-gradient(80% 55% at 50% 52%, rgba(252,166,154,0.45) 0%, rgba(214,76,82,0.46) 27%, rgba(100,20,30,0.38) 47%, rgba(50,10,20,0.45) 60%, rgba(8,8,12,0.92) 78%, rgba(0,0,0,1) 88%)",
+            // Warm sweep from top-left — rose/coral
+            "radial-gradient(85% 60% at 14% 0%, rgba(233,109,99,0.65) 0%, rgba(190,60,70,0.58) 30%, rgba(28,12,18,0.0) 64%)",
+            // Cool accent rim on top-right — violet
+            "radial-gradient(70% 50% at 86% 22%, rgba(168,85,180,0.40) 0%, rgba(16,18,28,0.0) 55%)",
             // Soft top vignette
             "linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0) 40%)",
           ].join(","),
@@ -59,7 +59,7 @@ export function Web3HeroAnimated() {
       <div className="relative z-10 mx-auto grid w-full max-w-5xl place-items-center px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:pt-44 lg:pb-28">
         <div className={`mx-auto text-center ${isMounted ? "animate-fadeInUp" : "opacity-0"}`}>
           <span className="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-1 text-[11px] uppercase tracking-wider text-white/70 ring-1 ring-white/10 backdrop-blur">
-            <span className="h-1.5 w-1.5 rounded-full bg-[#84ABBF]" /> {siteConfig.tagline}
+            <span className="h-1.5 w-1.5 rounded-full bg-rose-400" /> {siteConfig.tagline}
           </span>
 
           <h1
@@ -67,7 +67,7 @@ export function Web3HeroAnimated() {
             className={`mt-6 text-4xl font-bold tracking-tight md:text-6xl ${isMounted ? "animate-fadeInUp" : "opacity-0"}`}
           >
             {hero.headline}
-            <span className="block mt-2 bg-gradient-to-r from-[#A3C4D4] via-[#84ABBF] to-[#5A8FA8] bg-clip-text text-transparent">
+            <span className="block mt-2 bg-gradient-to-r from-rose-300 via-red-400 to-violet-400 bg-clip-text text-transparent">
               {hero.heroSuffix}
             </span>
           </h1>
@@ -85,7 +85,7 @@ export function Web3HeroAnimated() {
           >
             <a
               href={hero.ctaLink}
-              className="inline-flex items-center justify-center rounded-full bg-[#84ABBF] px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-[#84ABBF]/25 transition hover:bg-[#6892A8] hover:-translate-y-0.5"
+              className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-black shadow-lg shadow-white/15 transition hover:bg-white/90 hover:-translate-y-0.5"
             >
               {hero.ctaText}
             </a>
@@ -105,7 +105,7 @@ export function Web3HeroAnimated() {
         >
           {hero.stats.map((stat) => (
             <div key={stat.label} className="text-center rounded-2xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-4">
-              <div className="text-2xl lg:text-3xl font-extrabold text-[#84ABBF]">
+              <div className="text-2xl lg:text-3xl font-extrabold text-rose-400">
                 {stat.value}
               </div>
               <div className="text-sm text-white/60 mt-1">{stat.label}</div>
@@ -125,9 +125,9 @@ export function Web3HeroAnimated() {
       </div>
 
       {/* ================== FOREGROUND ================== */}
-      {/* Center-bottom rectangular glow */}
+      {/* Center-bottom rectangular glow — white/rose */}
       <div
-        className="pointer-events-none absolute bottom-[128px] left-1/2 z-0 h-36 w-28 -translate-x-1/2 rounded-md bg-gradient-to-b from-[#84ABBF]/75 via-[#A3C4D4]/60 to-transparent"
+        className="pointer-events-none absolute bottom-[128px] left-1/2 z-0 h-36 w-28 -translate-x-1/2 rounded-md bg-gradient-to-b from-white/75 via-rose-400/60 to-transparent"
         style={{ animation: "subtlePulse 6s ease-in-out infinite" }}
       />
 
